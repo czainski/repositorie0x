@@ -1,0 +1,150 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Dokument bez tytułu</title>
+<link href="../../css/answer2.css" rel="stylesheet" type="text/css">
+</head>
+
+<body> <div class="tytul" id="head">
+  <h1>Flyweight</h1>
+  <h2>Structural patterns</h2></div>
+   <div class="post-text">
+<pre><code>
+ <span class="com">/*
+    Flyweight:
+        Depending on the parameters, it generates
+    and memorizes the corresponding concrete classes objects 
+    in the array and returns its references to the client. 
+        Concrete classes implement a common interface.
+        The Table allows grouping or selecting
+    stored objects. Object selection can be eg. through
+    recognizing the type of object.
+    */</span>
+    using <span class="typ">System;</span>
+    using <span class="typ">System.Collections.Generic;</span>
+    using <span class="typ">RedirectBC;</span>
+
+    <span class="com">//</span>
+    <span class="kwd">abstract class</span>  Staff
+    {
+        <span class="kwd">public string</span> _FirstName { set; get; }
+        <span class="kwd">public string</span> _LastName { set; get; }
+        <span class="kwd">public string</span> _Department { set; get; }
+        <span class="com">//</span>
+        <span class="kwd">public abstract void</span> Recipience(<span class="kwd">string</span> FirstName, <span class="kwd">string</span> LastName);
+    }<span class="com">//</span>
+    <span class="kwd">class</span> Manager : Staff
+    {
+        <span class="kwd">public</span> Manager(<span class="kwd">string</span> Department)
+        {
+            _Department <span class="kwd">=</span> Department;
+        }
+        <span class="kwd">public override void</span> Recipience(<span class="kwd">string</span> FirstName, <span class="kwd">string</span> LastName)
+        {
+            Console.WriteLine(<span class="str">"\n{0} {1} - Manager for: {2}"</span>, FirstName, LastName, _Department);
+            _FirstName  <span class="kwd">=</span> FirstName;
+            _LastName   <span class="kwd">=</span> LastName;
+        }
+    }<span class="com">//</span>
+    <span class="kwd">class </span>Employee : Staff
+    {
+        <span class="kwd">public</span> Employee(<span class="kwd">string</span> Department)
+        {
+            _Department <span class="kwd">=</span> Department;
+        }
+        <span class="kwd">public override void</span> Recipience(<span class="kwd">string</span> FirstName, <span class="kwd">string</span> LastName)
+        {
+            Console.WriteLine(<span class="str">"{0} {1} - Employee for Department: {2}"</span>, FirstName,  LastName,  _Department);
+        
+            _FirstName  <span class="kwd">=</span> FirstName;
+            _LastName   <span class="kwd">=</span> LastName;
+        }
+    }<span class="com">//</span>
+    <span class="kwd">class</span> FlyweightFactory
+    {
+        <span class="com">//All objects which had been generated </span>
+        List<Staff> _flyweightFactoryObiects <span class="kwd">= new</span> List<Staff>();
+
+        <span class="com">//Generate and store the appropriate class</span>
+        <span class="kwd">public</span> Staff CreateSaveObject(<span class="kwd">string</span> nameClass, <span class="kwd">string</span> Department)
+        {
+            Staff staff;
+            <span class="kwd">switch</span> (nameClass)
+            {
+                <span class="kwd">case</span> <span class="str">"Manager"</span>:
+                    staff <span class="kwd">= new</span> Manager(Department);
+                    break;
+                <span class="kwd">case</span> <span class="str">"Employee"</span>:
+                    staff <span class="kwd">= new</span> Employee(Department);
+                    break;
+                <span class="kwd">default:</span>
+                    <span class="kwd">throw new</span> Exception(<span class="str">"Invalid parameter!"</span>);
+            }
+            _flyweightFactoryObiects.Add(staff);
+            return staff;
+        }   
+        <span class="kwd">public void</span> <span class="exec">Count</span>()
+        {
+             Console.WriteLine(<span class="str">"\nStaff consists of {0} people."</span>, _flyweightFactoryObiects.Count);
+        }
+        <span class="com">//Select only managers</span>
+        <span class="kwd">public void</span> Managers() 
+        {
+            Console.WriteLine(<span class="str">"\n\n"</span>);
+            <span class="kwd">foreach</span> (Staff staff <span class="kwd">in</span>_flyweightFactoryObiects)
+            {
+                System.<span class="exec">Type</span> type <span class="kwd">=</span> staff.GetType();
+                <span class="kwd">if</span> (type.ToString()<span class="kwd">==</span>"Manager")
+                {
+                    Console.WriteLine(<span class="str">"{0} {1} - Maganer of: {2}"</span>, staff._FirstName, staff._LastName, staff._Department);
+                }
+            }
+        }
+    }<span class="com">//</span>
+    <span class="kwd">class</span> Client
+    {
+        <span class="kwd">static void</span> Main(<span class="kwd">string</span>[] args)
+        {
+            <span class="exec">Redirect.Open</span>();
+
+            FlyweightFactory flyweightFactory <span class="kwd">= new</span> FlyweightFactory();
+
+            Staff employment <span class="kwd">=</span> flyweightFactory.CreateSaveObject(<span class="str">"Manager"</span>, <span class="str">"Cloud Services"</span>);
+            employment.Recipience(<span class="str">"Samuel"</span>, <span class="str">"Anderson"</span>);
+            <span class="com">//</span> 
+            employment <span class="kwd">=</span> flyweightFactory.CreateSaveObject(<span class="str">"Employee"</span>, <span class="str">"Cloud Services"</span>);
+            employment.Recipience(<span class="str">"Rowan"</span>, <span class="str">"Atkinson"</span>);
+
+            employment <span class="kwd">=</span> flyweightFactory.CreateSaveObject(<span class="str">"Employee"</span>, <span class="str">"Cloud Services"</span>);
+            employment.Recipience(<span class="str">"James"</span>, <span class="str">"Bachman"</span>);
+
+            employment <span class="kwd">=</span> flyweightFactory.CreateSaveObject(<span class="str">"Manager"</span>, <span class="str">"Cloud Platforms"</span>);
+            employment.Recipience(<span class="str">"Harold"</span>, <span class="str">"Bennett"</span>);
+
+            <span class="com">//Synthetic analysis</span>
+            flyweightFactory.Managers();
+            flyweightFactory.Count(); 
+    
+            <span class="com">//Console.ReadKey();</span>
+            <span class="exec">Redirect.Close</span>();
+        }
+    }<span class="com">//
+	/*output:
+	
+	Samuel Anderson - Manager for: Cloud Services
+	Rowan Atkinson - Employee for Department: Cloud Services
+	James Bachman - Employee for Department: Cloud Services
+
+	Harold Bennett - Manager for: Cloud Platforms
+
+	Samuel Anderson - Maganer of: Cloud Services
+	Harold Bennett - Maganer of: Cloud Platforms
+
+	Staff consists of 4 people.
+
+	*/   </span>
+ </code></pre>
+ </div>  
+</body>
+</html>

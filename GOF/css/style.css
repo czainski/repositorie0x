@@ -1,0 +1,38 @@
+@charset "utf-8";
+@import url("kod.css");
+.contener {
+	margin-left: 51px;
+	font-weight: bold;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", sans-serif;
+}
+a {
+	text-decoration: none;
+	color: #1B89FD;/*#0ab7bc*/
+}
+
+a:hover {color: #0076a9}
+li{
+	font-size: 15px;
+	color: #4B4B4B;
+}
+.naglowek {
+	font-weight: bold;
+	font-size: 30px;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", sans-serif;
+}
+.podgrupy {
+	font-size: 20px;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", sans-serif;
+}
+.tytul {
+	color: #FFFFFF;
+	font-weight: 500;
+	text-align: center;
+	border-radius: 3px;
+	margin-left: 0px;
+	padding-top: 2px;
+	padding-left: 12px;
+	padding-right: 12px;
+	padding-bottom: 2px;
+	background-color: #3E703A;
+}

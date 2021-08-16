@@ -1,0 +1,189 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Dokument bez tytułu</title>
+<!--<link href="../css/answer.css" rel="stylesheet" type="text/css">-->
+<link href="../../css/answer2.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    
+    <div class="tytul" id="head"><h1>Abstract Factory</h1><h2>Creational patterns</h2></div>
+    <div class="post-text">
+      <pre><code>
+       <span class="com">/* AbstractFactory
+    */</span>
+    using <span class="typ">System;</span>
+    <span class="com">//using RedirectBC;
+    //</span>
+    <span class="kwd">class</span> Tour1 : AbstractTour
+    {
+        public Tour1<span class="kwd">() </span>
+        {
+            _location <span class="kwd">=</span> <span class="str">"Pompeii - Italy"</span>;
+        }
+    }
+    <span class="kwd">class</span> Tour2 : AbstractTour
+    {
+        public Tour2<span class="kwd">()</span>
+        {
+            _location <span class="kwd">=</span> <span class="str">"Territory of Cocos Islands"</span>;
+        }
+    }
+    <span class="kwd">class</span> Bus1 : AbstractTransport
+    {
+        public Bus1<span class="kwd">()</span> 
+        {
+            _transport = <span class="str">"Champion Challenger Bus"</span>;
+            _price <span class="kwd">=</span> <span class="cyfr">2000</span>;
+        } 
+    }
+    <span class="kwd">class</span> Airplane1 : AbstractTransport
+    {
+        public Airplane1<span class="kwd">()</span>
+        {
+            _transport <span class="kwd">=</span> <span class="str">"Boeing 787 Dreamliner"</span>;
+            _price <span class="kwd">=</span> <span class="cyfr">10000</span>;
+        }
+    }
+    <span class="kwd">class</span> Ship1 : AbstractTransport
+    {
+        public Ship1<span class="kwd">()</span>
+        {
+            _transport <span class="kwd">=</span> <span class="str">"Allure Of The Seas II"</span>;
+            _price <span class="kwd">=</span> <span class="cyfr">8000</span>;
+        }
+    }
+    <span class="kwd" >abstract class</span> AbstractTour
+    {
+        public string _location;
+    }
+     <span class="kwd">abstract class</span>  AbstractTransport
+    {
+        <span class="kwd">public string</span>  _transport;
+        <span class="kwd">public int</span>     _number;
+        <span class="kwd">public decimal</span> _price ;
+
+        <span class="kwd">public void</span> Report(AbstractTour tour)
+        {
+            System.Console.WriteLine(String.Format(<span class="str">"\n\n\tTravel to \"{1}\""</span> <span class="kwd">+</span>
+                      <span class="str">" has prepared.\n\n\t\tTransport: {0}"</span> <span class="kwd">+</span>
+                      <span class="str">"\n\t\tIncome: {2:N2} Euro"</span>,
+                      _transport,
+                      tour._location,
+                      _price*_number));
+        }
+    }
+    <span class="kwd">class</span> Factory1 : AbstractFactory
+    {
+        <span class="kwd">public override</span> AbstractTransport CreateTransport() 
+        {
+            <span class="kwd">return new</span> Bus1<span class="kwd">()</span>; 
+        }
+        <span class="kwd">public override</span> AbstractTour CreateTour() 
+        {
+            <span class="kwd">return new</span> Tour1<span class="kwd">()</span>; 
+        } 
+    }
+    <span class="kwd">class</span> Factory2 : AbstractFactory
+    {
+        <span class="kwd">public override</span> AbstractTransport CreateTransport()
+        {
+            <span class="kwd">return new</span> Airplane1<span class="kwd">()</span>;
+        }
+        <span class="kwd">public override</span> AbstractTour CreateTour<span class="kwd">()</span>
+        {
+            <span class="kwd">return new</span> Tour2<span class="kwd">()</span>;
+        }
+    }
+    <span class="kwd">class</span> Factory3 : AbstractFactory
+    {
+        <span class="kwd">public override</span> AbstractTransport CreateTransport()
+        {
+            <span class="kwd">return new</span> Ship1<span class="kwd">()</span>;
+        }
+        <span class="kwd">public override</span> AbstractTour CreateTour<span class="kwd">()</span>
+        {
+            <span class="kwd">return new</span> Tour2<span class="kwd">()</span>;
+        }
+    }
+     <span class="kwd">abstract class</span> AbstractFactory
+    {
+        <span class="kwd">public abstract</span> AbstractTransport   CreateTransport<span class="kwd">()</span>;
+        <span class="kwd">public abstract</span> AbstractTour        CreateTour<span class="kwd">()</span>; 
+    }
+    <span class="kwd">class</span> Manager {
+
+		AbstractTransport _transport; 
+        AbstractTour      _tour; 
+        
+        <span class="kwd">public void</span> Factory(AbstractFactory factory, <span class="kwd">int</span> number) 
+        { 
+            _transport  <span class="kwd">=</span> factory.CreateTransport<span class="kwd">()</span>;
+            _transport._number <span class="kwd">=</span> number;
+            
+            _tour       = factory.CreateTour<span class="kwd">()</span>; 
+        } 
+        <span class="kwd">public void</span> Run<span class="kwd">() </span>
+        { 
+            _transport.Report(_tour); 
+        } 
+    }
+    <span class="com">////</span>
+     <span class="kwd">public class</span> Client
+    {   
+        <span class="kwd">public static void</span> Main(String<span class="kwd">[]</span> args)
+        {
+            <span class="com">//Redirect.Open(); </span>
+ 
+            Manager manager <span class="kwd">= new</span> Manager<span class="kwd">()</span>;
+            manager.Factory(<span class="kwd">new</span> Factory1(), <span class="cyfr">40</span>);
+            manager.Run<span class="kwd">()</span>;
+
+            manager.Factory(<span class="kwd">new</span> Factory2(), <span class="cyfr">200</span>);
+            manager.Run<span class="kwd">()</span>;
+
+            manager.Factory(<span class="kwd">new </span>Factory3(), <span class="cyfr">1500</span>);
+            manager.Run<span class="kwd">()</span>;
+
+            <span class="com">//Redirect.Close();</span>
+
+            Console.ReadLine<span class="kwd">()</span>;
+        }
+     }
+   <span class="com"> /* output:
+
+	  
+
+Travel to "Pompeii - Italy" has prepared.
+
+		
+	  Transport: Champion Challenger Bus
+		
+	  Income: 80 000,00 Euro
+
+
+
+	  Travel to "Territory of Cocos Islands" has prepared.
+
+		
+	  Transport: Boeing 787 Dreamliner
+		
+	  Income: 2 000 000,00 Euro
+
+
+
+	  Travel to "Territory of Cocos Islands" has prepared.
+
+		
+	  Transport: Allure Of The Seas II
+		
+	  Income: 12 000 000,00 Euro
+    
+	*/</span>
+ </code></pre>
+ </div>	
+ </div>
+</body>
+</html>

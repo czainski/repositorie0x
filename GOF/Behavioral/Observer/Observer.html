@@ -1,0 +1,132 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Dokument bez tytułu</title>
+<!--<link href="../css/answer.css" rel="stylesheet" type="text/css">-->
+<link href="../../css/answer2.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    
+    <div class="tytul" id="head">
+      <h1>Observer</h1>
+<h2>Behavioral patterns</h2></div>
+    <div class="post-text">
+<pre><code> <span class="com">/*
+        Observer
+        An object of class with an observed property registers all objects
+    whose want to observer changing value this  property. 
+    When it follows changing the value of observed property all  
+    observers are receive messages about it.
+
+    */</span>
+    using <span class="typ">System;</span>
+    using <span class="typ">System.Collections.Generic;</span>
+    <span class="com">//using RedirectBC;</span>
+    <span class="com">//</span>
+    <span class="kwd">abstract class</span> Temperature
+    {
+        <span class="kwd">public string</span> _what; <span class="com">//"Temperature water" or "Temperature air"</span>
+        <span class="kwd">private double</span> _temperature;
+        <span class="kwd">private</span> List<span class="kwd"><</span>Observator<span class="kwd">></span> _observators <span class="kwd">= new</span> List<span class="kwd"><</span>Observator<span class="kwd">>()</span>;
+
+        <span class="kwd">public void</span> Register(Observator observator)
+        {
+            _observators.Add(observator);
+        }<span class="com">//</span>
+        <span class="kwd">public double</span> SetUpTemperature
+        {
+            get { <span class="kwd">return</span> _temperature; }
+            set
+            {
+                <span class="kwd">if</span> (_temperature <span class="kwd">!= value</span>)
+                {
+                    _temperature <span class="kwd">= value</span>;
+                    <span class="kwd">foreach</span> (Observator observator <span class="kwd">in</span> _observators)
+                        observator.InformObservator(<span class="kwd">this</span>);
+                    Console.WriteLine(<span class="str">""</span>);
+                }
+            }
+        }<span class="com">//</span>
+        <span class="kwd">public string</span> What
+        {
+            get { <span class="kwd">return</span> _what; }
+        }<span class="com">//</span>
+        <span class="kwd">public void</span> Detach(Observator observator)
+        {
+            _observators.Remove(observator);
+        }<span class="com">//</span>
+    }<span class="com">//</span>
+    <span class="kwd">class</span> WaterTemerature : Temperature
+    {
+        <span class="kwd">public</span> WaterTemerature<span class="kwd">()</span>
+        {
+            _what = <span class="str">"Temerature of Water: "</span>; 
+        }
+    }<span class="com">//</span>
+    <span class="kwd">class</span> AirTemperature : Temperature
+    {
+        <span class="kwd">public</span> AirTemperature<span class="kwd">()</span> 
+        {
+            _what <span class="kwd">=</span> <span class="str">"Air Temperature: "</span>; 
+        }
+    }<span class="com">//</span>
+    <span class="kwd">class</span> Observator
+    {
+        <span class="kwd">private string</span> _nameObservator;
+        <span class="kwd">public</span> Observator(<span class="kwd">string</span> name)
+        {
+            <span class="kwd">this</span>._nameObservator <span class="kwd">=</span> name;
+        }<span class="com">//</span>
+        <span class="kwd">public void</span> InformObservator(Temperature temperatura)
+        {
+            Console.WriteLine(<span class="str">"For: {0} ; {1} {2}°"</span>, _nameObservator, temperatura.What,
+                temperatura.SetUpTemperature);
+        }<span class="com">//</span>
+    }<span class="com">//</span>
+    <span class="kwd">class</span> Client
+    {
+        <span class="kwd">static void</span> Main<span class="kwd">()</span>
+        {
+            <span class="com">//Redirect.Open();</span>
+            
+            Observator observator1 <span class="kwd">= new</span> Observator(<span class="str">"Heathrow Airport"</span>);
+            Observator observator2 <span class="kwd">= new</span> Observator(<span class="str">"Millennium Hotel"</span>);
+            Observator observator3 <span class="kwd">= new</span> Observator(<span class="str">"Panama City Beach"</span>);
+                        
+            WaterTemerature waterTemerature  <span class="kwd">= new</span> WaterTemerature();
+            AirTemperature  airTemperature   <span class="kwd">= new</span> AirTemperature();
+                                  
+            airTemperature.Register(observator1);
+            airTemperature.Register(observator2);
+    
+            waterTemerature.Register(observator2);
+            waterTemerature.Register(observator3);
+            
+            waterTemerature.SetUpTemperature = <span class="cyfr">15</span>;
+            airTemperature.SetUpTemperature = <span class="cyfr">25</span>;
+
+            waterTemerature.Detach(observator3);
+
+            waterTemerature.SetUpTemperature = <span class="cyfr">20</span>;
+            airTemperature.SetUpTemperature = <span class="cyfr">35</span>;
+            
+            Console.ReadKey();
+            <span class="com">//Redirect.Close();</span>
+        }
+    }<span class="com">//
+    /*output:
+    For: Millennium Hotel ; Temerature of Water:  15°
+    For: Panama City Beach ;  Temerature of Water:  15°
+
+    For: Heathrow Airport ; Air Temperature:  25°
+    For: Millennium Hotel ; Air Temperature:  25°
+
+    For: Millennium Hotel ; Temerature of Water:  20°
+
+    For: Heathrow Airport ; Air Temperature:  35°
+    For: Millennium Hotel ; Air Temperature:  35°
+    */</span>
+     </code></pre></div></body>
+</html>

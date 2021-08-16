@@ -1,0 +1,79 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Dokument bez tytułu</title>
+<link href="../../css/answer2.css" rel="stylesheet" type="text/css">
+</head>
+
+<body> <div class="tytul" id="head">
+  <h1>Proxy</h1><h2>Structural patterns</h2></div>
+  <div class="post-text">
+<pre><code>
+ <span class="com"> /*
+    Proxy
+       Generates and remembers an object 
+    when certain conditions are met
+    e.g. permission to access.
+    */</span>
+    using <span class="typ">System;</span>
+        
+    <span class="kwd">class</span> Proxy 
+    {
+        <span class="kwd">public</span> ProtectedClass ProtectedClass { set; get; }
+        <span class="kwd">public bool</span> Gate { set; get; }
+        <span class="kwd">public  void</span> <span class="exec">Request</span>(<span class="kwd">sting</span> password)
+        {
+            if (ProtectedClass <span class="kwd">== null</span> && password <span class="kwd">==</span> <span class="str">"x"</span>)
+            {
+                ProtectedClass <span class="kwd">=</span> new ProtectedClass();
+                Gate <span class="kwd">= true</span>;
+                return;
+            }
+            Gate <span class="kwd">= false</span>;
+            Console.WriteLine(<span class="str">"\nIllegal Request!"</span>);
+        }
+    }
+    <span class="kwd">class</span> ProtectedClass
+    {
+        <span class="kwd">public void </span>Method()
+        {
+            Console.WriteLine(<span class="str">"Method have been executed!"</span>);
+        }
+    }
+    <span class="kwd">class</span> Client
+    {
+        <span class="kwd">static void</span> Main()
+        {
+            Proxy proxy <span class="kwd">= new</span> Proxy();
+            proxy.<span class="exec">Request</span>("x");
+            test(proxy);
+
+            proxy.<span class="exec">Request</span>("y");
+            test(proxy);
+            Console.ReadKey();
+        }<span class="com">//</span>
+        <span class="kwd">static void</span> test(Proxy proxy)
+        {
+            <span class="kwd">if</span> (proxy.Gate <span class="kwd">== true</span>)
+            {
+                Console.WriteLine(<span class="str">"Authorization OK!"</span>);
+                proxy.ProtectedClass.Method();
+            }
+
+        }<span class="com">// </span>
+    }<span class="com">//        
+    /*  output :
+
+        Authorization OK!
+        Method have been executed!
+        
+        Illegal Request!
+    
+    */</span>
+</code></pre>
+</div>
+</pre>
+</div>
+</body>
+</html>

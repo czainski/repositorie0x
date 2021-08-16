@@ -1,0 +1,75 @@
+<PRE>
+/*
+ Udostępnianie i  blokowanie konta 
+ */
+using System;
+
+namespace StateBC
+{
+    class Account
+    {
+        public Context context { set; get; }
+        public Account(Context context) 
+        {
+            this.context = context;
+        }
+
+        public string Withdraw(decimal d) {
+
+            if (context is AccountBlocked) 
+            {
+                return "The customer's account is blocked!!!";
+
+            }
+            else if (context is AccountAvailable) 
+            { 
+                //...operations
+            }
+            //...
+            return "Customer account available.";
+        }
+        //... 
+    }
+
+    abstract class Context
+    {
+        public Account account { set; get; }
+        public void SwitchContext(Context context) 
+        {
+            account.context = context;
+        }
+   }
+    
+    class AccountBlocked :  Context  { }
+    class AccountAvailable : Context  { }
+    
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Hello State Design Pattern!\n\n");
+      
+            string result = null;
+            Context context = null;
+
+            context = new AccountAvailable();
+            context.account = new Account(context);
+            
+            result = context.account.Withdraw(10000);
+            Console.WriteLine(result+"\n");
+
+            context.SwitchContext(new AccountBlocked());
+
+            result = context.account.Withdraw(10000);
+            Console.WriteLine(result + "\n");   
+        }
+    }
+}
+/*output:
+Hello State Design Pattern!
+
+Customer account available.
+
+The customer's account is blocked!!!
+ */
+</PRE>

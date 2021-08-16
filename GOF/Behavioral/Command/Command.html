@@ -1,0 +1,129 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Dokument bez tytułu</title>
+<!--<link href="../css/answer.css" rel="stylesheet" type="text/css">-->
+<link href="../../css/answer2.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    
+    <div class="tytul" id="head">
+      <h1>Command</h1>
+<h2>Behavioral patterns</h2></div>
+    <div class="post-text">
+      <pre><code>
+ <span class="com"> /*
+    Command
+        Allows you to standardization execute of method of objects 
+        whose classes are different and not have common interface.
+    */</span>
+ using <span class="typ">System;</span>
+    <span class="com">//using RedirectBC; </span>   
+    <span class="com">//A abstraction layer</span>
+    <span class="kwd">abstract class</span> <span class="exec">Command</span>
+    {
+        <span class="kwd">public abstract void</span> <span class="exec">Execute</span><span class="kwd">()</span>;
+    }
+    <span class="kwd">class</span> Invoker
+    {
+        <span class="kwd">public</span> <span class="exec">Command Command</span> { set; get; }
+        <span class="com">//</span>
+        <span class="kwd">public void</span> Report<span class="kwd">()</span>
+        {
+            <span class="exec">Command</span>.<span class="exec">Execute</span><span class="kwd">()</span>;
+        }
+    }
+    <span class="com">//An intermediate layer that links an abstract layer </span>
+    <span class="com">//to a layer of concrete classes.</span>
+    <span class="kwd">class</span> CommandProduct : <span class="exec">Command</span>
+    {
+        Product _product {get;set;}
+        public CommandProduct (Product product)
+        {
+            _product <span class="kwd">=</span> product;
+        }
+        <span class="com">//</span>
+        <span class="kwd">public override void</span> <span class="exec">Execute</span><span class="kwd">()</span>
+        {
+            _product.SaleProduct();
+        }<span class="com">//</span>
+    }<span class="com">//</span>
+    <span class="kwd">class</span> CommandStaff : <span class="exec">Command</span>
+    {
+        Staff _staff; 
+        <span class="kwd">public</span> CommandStaff (Staff staff)
+        {
+            _staff <span class="kwd">=</span> staff;
+        }
+        <span class="kwd">public override void</span> <span class="exec">Execute</span>()
+        {
+            _staff.Employ();
+        }<span class="com">//</span>
+    }<span class="com">//</span>
+    <span class="com">//The 'Receiver' classes (The Concrete classes)</span>
+    <span class="kwd">class</span> Staff
+    {
+        <span class="kwd">public string</span> FirstName {get;set;}
+        <span class="kwd">public string</span> LastName {get;set;}
+        
+        <span class="kwd">public void</span> Employ()
+        {
+            Console.WriteLine(<span class="str">"\n\tEmploy:\n\t{0}\t{1} "</span>, FirstName, LastName);
+        }<span class="com">//</span>
+    }<span class="com">//</span>
+    <span class="kwd">class</span> Product
+    {
+        <span class="kwd">public string</span>  <span class="exec">Name</span>;
+        <span class="kwd">public decimal</span> Price;
+        
+        <span class="kwd">public void</span> SaleProduct()
+        {
+           Console.WriteLine(<span class="str">"\n\tSold:\n\t{0}\tPrice: {1} "</span>, <span class="exec">Name</span>, Price);
+        }<span class="com">//</span>
+     }<span class="com">//</span>
+    <span class="kwd">class</span> Client
+    {
+        <span class="kwd">static void</span> Main()
+        {
+            <span class="com">//Redirect.Open();</span>
+
+            <span class="com">//The 'Receiver' classes</span>
+            Product product    <span class="kwd">= new</span> Product();
+            product.<span class="exec">Name</span>   <span class="kwd">=</span> <span class="str">"Atomic Lithium 10"</span>;
+            product.Price  <span class="kwd">=</span> <span class="cyfr">749</span>;
+            
+            Staff   staff      <span class="kwd">=</span> new Staff();
+            staff.FirstName <span class="kwd">=</span> <span class="str">"John"</span>;
+            staff.LastName  <span class="kwd">=</span> <span class="str">"Smith"</span>;
+            
+            <span class="com">//The Concrete Commands</span>
+            <span class="exec">Command</span> command1   <span class="kwd">= new</span> CommandProduct(product);
+            <span class="exec">Command</span> command2   <span class="kwd">= new</span> CommandStaff(staff);
+             
+            <span class="com">//The invoker</span>
+            Invoker invoker    <span class="kwd">= new</span> Invoker();
+
+            invoker.<span class="exec">Command</span>   <span class="kwd">=</span> command1;
+            invoker.Report();
+
+            invoker.<span class="exec">Command</span>   <span class="kwd">=</span> command2;
+            invoker.Report();
+    
+            Console.ReadKey();
+            <span class="com">//Redirect.Close();</span>
+       }<span class="com">//</span>
+    }<span class="com">//
+    
+    /* output:
+     
+        Sold:
+            Atomic Lithium 10 Price: 749 
+
+        Employ:
+            John Smith 
+     */</span>
+
+     </code></pre></div></body>
+</html>

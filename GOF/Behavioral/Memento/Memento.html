@@ -1,0 +1,136 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Dokument bez tytułu</title>
+<!--<link href="../css/answer.css" rel="stylesheet" type="text/css">-->
+<link href="../../css/answer2.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    
+    <div class="tytul" id="head">
+      <h1>Memento</h1>
+<h2>Behavioral patterns</h2></div>
+    <div class="post-text">
+<pre><code> <span class="com">/*
+        Memento
+        
+        The purpose of this pattern is to store object states
+    and is achieved by cloning objects.
+    Clones are remembered in an array such as Dictionary
+    with access via key.
+
+    */</span>
+    using <span class="typ">System;</span>
+    using <span class="typ">System.Collections.Generic;</span>
+    using <span class="typ">RedirectBC;</span>
+    <span class="com">//</span>
+    <span class="kwd">class</span> Memento : ICloneable
+    {
+        <span class="kwd">private string</span> _name;
+        <span class="kwd">private string</span> _phone;
+        <span class="kwd">private double</span> _budget;
+        <span class="com">//</span>
+        <span class="kwd">public string</span> <span class="exec">Name</span>
+        {
+            get { return _name; }
+            set { _name <span class="kwd">= value</span>; }
+        }
+        <span class="kwd">public string</span> Phone
+        {
+            get { return _phone; }
+            set { _phone <span class="kwd">= value</span>; }
+        }
+        <span class="kwd">public double</span> Budget
+        {
+            get { <span class="kwd">return</span> _budget; }
+            set { _budget <span class="kwd">= value</span>; }
+        }
+        <span class="com">//</span>
+        <span class="kwd">public object</span> <span class="exec">Clone</span><span class="kwd">()</span>
+        {
+            <span class="kwd">return this</span>.MemberwiseClone<span class="kwd">()</span>;
+        }
+    }<span class="com">//</span>
+    <span class="kwd">class</span> Memory 
+    {
+        Dictionary<span class="kwd"><</span><span class="kwd">string</span>, Memento> _saveStates =
+                 <span class="kwd">new</span> Dictionary<span class="kwd"><</span><span class="kwd">string</span>, Memento><span class="kwd">()</span>;
+
+        <span class="kwd">public void</span> SaveState (<span class="kwd">string</span> key, Memento state )
+        {
+            _saveStates.Add(key, (Memento) state.<span class="exec">Clone</span><span class="kwd">()</span>);
+        }
+        <span class="kwd">public void</span> GetState(<span class="kwd">string</span> key) 
+        {
+            Console.WriteLine(<span class="str">"\n----- Selected: {0} ------------"</span>, key);
+            Console.WriteLine(_saveStates[key].<span class="exec">Name</span>);
+            Console.WriteLine(_saveStates[key].Phone);
+            Console.WriteLine(_saveStates[key].Budget);
+            Console.WriteLine(<span class="str">"------------------------------------"</span>);
+        }
+        <span class="kwd">public void</span> AllStates<span class="kwd">()</span>
+        {
+            Console.WriteLine(<span class="str">"\n--------- All saved states: --------"</span>);
+            <span class="kwd">foreach</span> (var item in _saveStates)
+            {
+                Console.WriteLine(<span class="str">"   {0}: "</span>, item.Key );
+                Console.WriteLine(<span class="str">"Name: {0}"</span>,_saveStates[item.Key].<span class="exec">Name</span>);
+                Console.WriteLine(<span class="str">"Phone: {0}"</span>, _saveStates[item.Key].Phone);
+                Console.WriteLine(<span class="str">"Budget: {0}\n"</span>,_saveStates[item.Key].Budget);
+            }
+            Console.WriteLine(<span class="str">"------------------------------------"</span>);
+        }
+    }<span class="com">//</span>
+    <span class="kwd">class</span> Client
+    {
+        <span class="kwd">static void</span> Main<span class="kwd">()</span>
+        {
+            <span class="exec">Redirect</span>.<span class="exec">Open</span><span class="kwd">()</span>;
+            
+            Memory  memory  <span class="kwd">= new</span> Memory<span class="kwd">()</span>;
+            Memento memento <span class="kwd">= new</span> Memento<span class="kwd">()</span>;
+            <span class="com">//</span>
+            memento.Name    <span class="kwd">=</span> <span class="str">"Audio Systems Project"</span>;
+            memento.Phone   <span class="kwd">=</span> <span class="str">"(412) 256-0990"</span>;
+            memento.Budget  <span class="kwd">=</span> <span class="cyfr">25000000</span>;
+            <span class="com">//</span>
+            memory.SaveState(<span class="str">"State 1"</span>, memento);
+            <span class="com">//</span>
+            memento.Name    <span class="kwd">=</span> <span class="str">"Project Fi"</span>;
+            memento.Phone   <span class="kwd">=</span> <span class="str">"(310) 209-7111"</span>;
+            memento.Budget  <span class="kwd">=</span> <span class="cyfr">30000000</span>;
+            memory.SaveState(<span class="str">"State 2"</span>, memento);
+            <span class="com">//</span>
+            memory.AllStates();
+            <span class="com">//</span>
+            memory.GetState(<span class="str">"State 1"</span>);
+            
+            <span class="com">//Console.ReadKey();</span>
+            <span class="exec">Redirect</span>.<span class="exec">Close</span><span class="kwd">()</span>;
+        }
+    }
+ <span class="com">  /*output:
+    --------- All saved states: --------
+        State 1: 
+    Name: Audio Systems Project
+    Phone: (412) 256-0990
+    Budget: 25000000
+
+       State 2: 
+    Name: Project Fi
+    Phone: (310) 209-7111
+    Budget: 30000000
+
+    ------------------------------------
+
+    ----- Selected: State 1 ------------
+    Audio Systems Project
+    (412) 256-0990
+    25000000
+    ------------------------------------
+ 
+    */    </span>
+     </code></pre></div></body>
+</html>

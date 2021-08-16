@@ -1,0 +1,13 @@
+C:\Users\czain\Desktop\CQRS\obj\Debug\netcoreapp3.1\CQRS.csprojAssemblyReference.cache
+C:\Users\czain\Desktop\CQRS\obj\Debug\netcoreapp3.1\CQRS.AssemblyInfoInputs.cache
+C:\Users\czain\Desktop\CQRS\obj\Debug\netcoreapp3.1\CQRS.AssemblyInfo.cs
+C:\Users\czain\Desktop\CQRS\obj\Debug\netcoreapp3.1\CQRS.csproj.CoreCompileInputs.cache
+C:\Users\czain\Desktop\CQRS\bin\Debug\netcoreapp3.1\CQRS.exe
+C:\Users\czain\Desktop\CQRS\bin\Debug\netcoreapp3.1\CQRS.deps.json
+C:\Users\czain\Desktop\CQRS\bin\Debug\netcoreapp3.1\CQRS.runtimeconfig.json
+C:\Users\czain\Desktop\CQRS\bin\Debug\netcoreapp3.1\CQRS.runtimeconfig.dev.json
+C:\Users\czain\Desktop\CQRS\bin\Debug\netcoreapp3.1\CQRS.dll
+C:\Users\czain\Desktop\CQRS\bin\Debug\netcoreapp3.1\CQRS.pdb
+C:\Users\czain\Desktop\CQRS\obj\Debug\netcoreapp3.1\CQRS.dll
+C:\Users\czain\Desktop\CQRS\obj\Debug\netcoreapp3.1\CQRS.pdb
+C:\Users\czain\Desktop\CQRS\obj\Debug\netcoreapp3.1\CQRS.genruntimeconfig.cache

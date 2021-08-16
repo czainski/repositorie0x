@@ -1,0 +1,82 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Dokument bez tytułu</title>
+<link href="../../css/answer2.css" rel="stylesheet" type="text/css">
+</head>
+
+<body> <div class="tytul" id="head">
+  <h1>Brige</h1><h2>Structural patterns</h2></div>
+<div class="post-text">
+<pre><code>
+   <span class="com">/*  
+    Bridge
+        It allows a unified way to run objects of different classes 
+    which implementing the same interface.
+    */</span>
+    using <span class="typ">System;</span>
+    using <span class="typ">RedirectBC;</span>
+
+    <span class="com">//The abstraction class and a class allows instances for a Brige.</span>
+    <span class="kwd">abstract class</span>  Bridge
+    {
+        <span class="kwd">protected</span> CommonInterface commonInterface;
+        <span class="kwd">public</span> CommonInterface SetInstance
+        {
+            set { commonInterface = value; }
+        }
+        <span class="kwd">public abstract void</span> <span class="exec">Execute</span>();
+    }<span class="com">//</span>
+    <span class="kwd">class</span> ChildBrige : Bridge
+    {
+        <span class="kwd">public override void</span> <span class="exec">Execute</span>()
+        {
+            commonInterface.InterfaceMethod();
+        }
+    }
+    <span class="com">//The concrets classes with the same interface.</span>
+    <span class="kwd">interface</span> CommonInterface
+    {
+        <span class="kwd">void</span> InterfaceMethod();
+    }<span class="com">//</span>
+    <span class="kwd">class</span> ConcreteClassA : CommonInterface
+    {
+        <span class="kwd">public  void</span> InterfaceMethod()
+        {
+            Console.WriteLine(<span class="str">"Method A"</span>);
+        }
+    }<span class="com">//</span>
+    <span class="kwd">class</span> ConcreteClassB : CommonInterface
+    {
+        <span class="kwd">public  void</span> InterfaceMethod()
+        {
+            Console.WriteLine(<span class="str">"Method B"</span>);
+        }
+    }<span class="com">//
+    //</span>
+    <span class="kwd">class</span> Client
+    {
+        <span class="kwd">static void</span> Main()
+        {
+            <span class="exec">Redirect.Open</span>();
+
+            Bridge bridge = <span class="kwd">new </span>ChildBrige();
+            bridge.SetInstance = <span class="kwd">new</span> ConcreteClassA();
+            bridge.<span class="exec">Execute</span>();
+
+            bridge.SetInstance = <span class="kwd">new</span> ConcreteClassB();
+            bridge.<span class="exec">Execute</span>();
+            
+            //Console.ReadKey();
+            <span class="exec">Redirect.Close</span>();
+        }
+    }<span class="com">//
+    /* output:
+        Method A
+        Method B
+    */</span>
+</code></pre>
+</div>
+</body>
+</html>

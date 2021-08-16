@@ -1,0 +1,84 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Dokument bez tytułu</title>
+<!--<link href="../css/answer.css" rel="stylesheet" type="text/css">-->
+<link href="../../css/answer2.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    
+    <div class="tytul" id="head">
+      <h1>Singleton</h1>
+<h2>Creational patterns</h2></div>
+    <div class="post-text">
+      <pre><code>
+       <span class="com">/*
+    Singleton Pattern
+        A pattern provides one and only one instance of the Singleton class.
+    */ </span>
+    ﻿    
+    using <span class="typ">System;</span>
+    using <span class="typ">RedirectBC;</span>
+    <span class="com">//</span>
+    <span class="kwd">public class</span> Singleton
+    {
+        <span class="kwd">static</span> Singleton instance <span class="kwd">= null</span>;
+        <span class="kwd">string</span> _Name { get; set; }
+        <span class="kwd">string</span> _IP { get; set; }
+       <span class="com"> //</span>
+        Singleton(<span class="kwd">string</span> <span class="exec">Name</span>, <span class="kwd">string</span> IP)
+        {
+            _Name <span class="kwd">=</span> <span class="exec">Name</span>;
+            _IP <span class="kwd">=</span> IP;
+        }<span class="com">//</span>
+        <span class="kwd">public static</span> Singleton Instance(<span class="kwd">string</span> <span class="exec">Name</span>, <span class="kwd">string</span> IP)
+        {
+                <span class="kwd">if</span> (Singleton.instance <span class="kwd">== null</span>)
+                {
+                    Console.WriteLine(<span class="str">"\n\tConstructor:\t{0}\tIP = {1}"</span>, <span class="exec">Name</span>, IP);
+                    Singleton.instance <span class="kwd">= new</span> Singleton(<span class="exec">Name</span>, IP);
+                }
+                <span class="kwd">return </span>Singleton.instance;
+        }<span class="com">//</span>
+        <span class="kwd">public static</span> Singleton getSingleton
+        {
+            get 
+            {
+                <span class="kwd">return</span> Singleton.instance;
+            }   
+        }<span class="com">//</span>
+        <span class="kwd">public void</span> Show<span class="kwd">()</span>
+        {
+            Console.WriteLine(<span class="str">"\n\t{0}\tIP = {1}"</span>, _Name, _IP );
+        }<span class="com">//</span>
+    }<span class="com">////</span>
+    <span class="kwd">class</span> Client
+    {
+        <span class="kwd">static void</span> Main(string[] args)
+        {
+            <span class="exec">Redirect.Open</span><span class="kwd">()</span>;
+            
+            Singleton.Instance(<span class="str">"Server 1", "30.90.39.29"</span>);
+            Singleton.getSingleton.Show<span class="kwd">()</span>;
+        
+            Singleton.Instance(<span class="str">"Server 2", "99.8.88.88"</span>); 
+            Singleton.getSingleton.Show<span class="kwd">()</span>;
+
+            <span class="com">//Console.ReadKey();</span>
+            <span class="exec">Redirect.Close</span><span class="kwd">()</span>;
+        }
+    }<span class="com">////
+    /*output:
+    
+	Constructor:	Server 1	IP = 30.90.39.29
+
+	Server 1	IP = 30.90.39.29
+
+	Server 1	IP = 30.90.39.29
+
+    */</span>
+
+     </code></pre></div></body>
+</html>

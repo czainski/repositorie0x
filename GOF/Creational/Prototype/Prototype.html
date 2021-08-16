@@ -1,0 +1,135 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Dokument bez tytułu</title>
+<!--<link href="../css/answer.css" rel="stylesheet" type="text/css">-->
+<link href="../../css/answer2.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    
+    <div class="tytul" id="head">
+      <h1>Prototype</h1>
+<h2>Creational patterns</h2></div>
+    <div class="post-text">
+      <pre><code>
+       <span class="com">/*Prototype*/</span>
+    using <span class="typ">System;</span>
+    using <span class="typ">System.Collections.Generic;</span>
+    using <span class="typ">RedirectBC;</span>
+    
+    <span class="kwd">class</span> Manager
+    {
+        <span class="kwd">private</span> Dictionary<span class="kwd"><</span><span class="kwd">string</span>, Prototype>
+        _dictionary = <span class="kwd">new</span> Dictionary<span class="kwd"><</span><span class="kwd">string</span> Prototype><span class="kwd">()</span>;
+
+        <span class="kwd">public</span> Prototype this[<span class="kwd">string</span> key]
+        {
+            get { return _dictionary[key]; }
+            set { _dictionary.Add(key, value); }
+        }
+        <span class="kwd">public</span> Dictionary<span class="kwd"><</span><span class="kwd">string</span>, Prototype> Dictionary<span class="kwd">()</span> 
+        {
+            <span class="kwd">return</span> _dictionary;
+        }
+    }
+   <span class="com">//// The 'Prototype' abstract class</span>
+    <span class="kwd">abstract class</span> Prototype
+    {
+        <span class="kwd">public</span> Prototype Clone<span class="kwd">()</span>
+        {
+            <span class="kwd">return</span> this.MemberwiseClone<span class="kwd">()</span> <span class="kwd">as</span> Prototype;
+        }
+    }
+    <span class="com">////The 'Concrete' Classes  </span>
+    <span class="kwd">class</span> Employee : Prototype
+    {
+        <span class="com">//</span>
+        <span class="kwd">public string</span> FirstName   {  set; get; }
+        <span class="kwd">public string</span> LastName    {  set ; get;}
+        <span class="kwd">public string</span> Departament {  set ; get;}
+
+    }
+    <span class="kwd">class</span> Car : Prototype
+    {
+        <span class="kwd">public string</span> <span class="exec">Name</span>  { set ; get ; }
+        <span class="kwd">public string</span> <span class="exec">Type</span> { set; get; }
+    }
+    <span class="com">////</span>
+    <span class="kwd">class</span> Client
+    {
+        <span class="com">////</span>
+        <span class="kwd">static void</span> Main<span class="kwd">()</span>
+        {
+          <span class="com">//  Redirect.Open();</span>
+
+            <span class="com">////KLasa indeksowana</span>
+            Manager  manager <span class="kwd">= new</span> Manager<span class="kwd">()</span>;
+            <span class="com">////</span>
+            Employee employee <span class="kwd">= null</span>;
+
+            employee <span class="kwd">= new</span> Employee<span class="kwd">()</span>;
+            employee.FirstName <span class="kwd">=</span><span class="str"> "Jhon"</span>;
+            employee.LastName <span class="kwd">=</span> <span class="str">"Smith"</span>;
+            employee.Departament <span class="kwd">=</span> <span class="str">"Mobile Phone Departament "</span>;
+            <span class="com">//</span>
+            manager["Employee1"] <span class="kwd">=</span> employee ;
+           <span class="com"> //</span>
+            employee = employee.<span class="exec">Clone</span><span class="kwd">()</span> <span class="kwd">as</span> Employee; ;
+            employee.FirstName <span class="kwd">=</span> <span class="str">"Adam"</span>;
+            employee.LastName <span class="kwd">=</span> <span class="str">"Grege"</span>;
+            
+            manager["Employee2"] <span class="kwd">=</span> employee;
+           <span class="com"> //// </span>
+            Car car = <span class="kwd">null</span>;
+
+            car <span class="kwd">= new</span> Car<span class="kwd">()</span>;
+            car.<span class="exec">Name</span> <span class="kwd">=</span> <span class="str">"Fiat"</span>;
+            car.<span class="exec">Type</span> <span class="kwd">=</span> <span class="str">"Punto"</span>;
+           <span class="com">//</span>
+            manager[<span class="str">"Car1"</span>] <span class="kwd">=</span> car;
+            <span class="com">//</span>
+            car = car.<span class="exec">Clone</span><span class="kwd">()</span> <span class="kwd">as</span> Car ;
+            car.<span class="exec">Type</span> = <span class="str">"Uno"</span>;
+            <span class="com">//</span>
+            manager[<span class="str">"Car2"</span>] <span class="kwd">=</span> car;
+
+            <span class="exec">Write</span>(manager);
+
+         <span class="com"> //  Redirect.Close<();</span>
+            Console.ReadKey<span class="kwd">()</span>;
+        }
+        static void <span class="exec">Write</span>(Manager manager)
+        {
+            Console.WriteLine<span class="kwd">()</span>;
+            foreach (KeyValuePair<span class="kwd"><</span><span class="kwd">string</span>, Prototype> entry <span class="kwd">in</span> manager.Dictionary<span class="kwd">()</span>)
+            {
+                if (entry.<span class="exec">Value</span>.GetType<span class="kwd">() == typeof</span>(Employee))
+                {
+                    Employee employee <span class="kwd">=</span> entry.<span class="exec">Value</span> <span class="kwd">as</span> Employee;
+                    Console.WriteLine(employee.FirstName <span class="kwd">+</span> <span class="str">" "</span> <span class="kwd">+</span> employee.LastName <span class="kwd">+</span> <span class="str">" "</span> <span class="kwd">+</span> employee.Departament);
+                }
+                else if (entry.<span class="exec">Value</span>.GetType<span class="kwd">()</span> <span class="kwd">== typeof</span>(Car))
+                {
+                    Car car = entry.<span class="exec">Value</span> <span class="kwd">as</span> Car;
+                    Console.WriteLine(car.<span class="exec">Name</span> <span class="kwd">+</span> <span class="str">" "</span> <span class="kwd"><span class="kwd">+</span></span> car.<span class="exec">Type</span>);
+                }
+                else
+                {
+                    Console.WriteLine(<span class="str">"Error"</span>);
+                }
+            }
+        }
+    }
+   <span class="com"> /* output:
+
+        Jhon Smith Mobile Phone Departament 
+        Adam Grege Mobile Phone Departament 
+        Fiat Punto
+        Fiat Uno
+     
+     */</span>
+
+     </code></pre></div></body>
+</html>

@@ -1,0 +1,151 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Dokument bez tytułu</title>
+<!--<link href="../css/answer.css" rel="stylesheet" type="text/css">-->
+<link href="../../css/answer2.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    
+    <div class="tytul" id="head">
+      <h1>Chain of Responsibility</h1>
+<h2>Behavioral patterns</h2></div>
+    <div class="post-text">
+      <pre><code>
+ <span class="com">/*  Chain of Responsibility 
+      Each object will remember the next object. This way we create 
+    a chain of related objects. The recursive method runs 
+    method of objects belong to the chain.
+      
+      In this simple example the program translates a word from English 
+    to other languages (very simplified version ); a word  is passed  
+    to subsequent dictionaries; the dictionaries form a chain. 
+    */</span>
+    using <span class="typ">System;</span>
+    
+    <span class="com">// The 'Handler' abstract class</span>
+    <span class="kwd">abstract class</span> Handler
+    {
+        <span class="kwd">public</span> Handler Successor {set;get;}
+        <span class="kwd">static</span> Handler _first;
+        
+        public Handler First
+        {
+            set  {  _first <span class="kwd">= value</span>;  }
+            get  {  return  _first;  }
+        }<span class="com">//</span>
+        <span class="kwd">public void</span> HandleRequest(<span class="kwd">string</span> request)
+        {
+            <span class="kwd">if</span> (First <span class="kwd">== this</span>)
+            {
+                Console.WriteLine(<span class="str">"\n\tWe translate word => \"{0}\"\n"</span>, request);
+                First.Translator(request);
+            }
+            <span class="com">//</span>
+            <span class="kwd">if</span> (Successor <span class="kwd">!= null</span>)
+            {
+                <span class="com">//Translation by the successor's dictionary</span> 
+                Successor.Translator(request);
+
+                <span class="com">//Transfer of word (request) to another chain. </span> 
+                Successor.HandleRequest(request);
+            }
+        }<span class="com">//</span>
+        <span class="kwd">abstract public void</span> Translator(<span class="kwd">string</span> word);
+    }<span class="com">//
+    //The concrete classes</span>
+    <span class="kwd">class</span> GermanDictionary : Handler
+    {
+        <span class="kwd">override public void</span> Translator(<span class="kwd">string</span> word)
+        {
+            <span class="kwd">switch</span> (word)
+            {
+                <span class="kwd">case</span> <span class="str">"Job"</span>:
+                    word <span class="kwd">=</span> <span class="str">"Arbeit"</span>;
+                    <span class="kwd">break</span>;
+                <span class="kwd">case</span> <span class="str">"Rest"</span>:
+                    word <span class="kwd">=</span> <span class="str">"Rest"</span>;
+                    <span class="kwd">break</span>;
+            }
+            Console.WriteLine(<span class="str">"\t\tinto German => \"{0}\""</span>, word);
+        }
+    }<span class="com">//</span>
+    <span class="kwd">class</span> FrenchDictionary : Handler
+    {
+        <span class="kwd">override public void</span> Translator(<span class="kwd">string</span> word)
+        {
+            <span class="kwd">switch</span> (word)
+            {
+                <span class="kwd">case</span> <span class="str">"Job"</span>:
+                    word <span class="kwd">=</span> <span class="str">"Travail"</span>;
+                    <span class="kwd">break</span>;
+                <span class="kwd">case</span> <span class="str">"Rest"</span>:
+                    word <span class="kwd">=</span> <span class="str">"Reste"</span>;
+                    <span class="kwd">break</span>;
+            }
+            Console.WriteLine(<span class="str">"\t\tinto French => \"{0}\""</span>, word);
+        }
+    }<span class="com">//</span>
+    <span class="kwd">class</span> PolishDictionary : Handler
+    {
+        <span class="kwd">override public void</span> Translator(<span class="kwd">string</span> word) 
+        {
+            <span class="kwd">switch</span> (word)
+            {
+                <span class="kwd">case</span> <span class="str">"Job"</span>:
+                    word <span class="kwd">=</span> <span class="str">"Praca"</span>;
+                    <span class="kwd">break</span>;
+                case "Rest":
+                    word <span class="kwd">=</span> <span class="str">"Odpoczynek"</span>;
+                    <span class="kwd">break</span>;
+            }
+            Console.WriteLine(<span class="str">"\t\tinto Polish => \"{0}\""</span>, word);
+        }
+    }<span class="com">////</span>
+    <span class="kwd">class</span> Client
+    {
+        <span class="kwd">static void</span> Main()
+        {
+            Handler h1 <span class="kwd">= new</span> FrenchDictionary();
+            Handler h2 <span class="kwd">= new</span> GermanDictionary();
+            Handler h3 <span class="kwd">= new</span> PolishDictionary();
+
+            <span class="com">//Determining the consequences in the chain</span>
+            h1.First<span class="kwd">=</span>h1;
+            h1.Successor<span class="kwd">=</span>h2;
+            h2.Successor<span class="kwd">=</span>h3;
+            h3.Successor<span class="kwd">=null</span>;
+
+            <span class="com">//A word that is translated</span>
+            <span class="kwd">string</span> request <span class="kwd">=</span> "Job";
+
+            <span class="com">//Starting the recursive method.</span>
+            h1.HandleRequest(request) ;
+
+            <span class="com">//Another word is translated.</span>
+            request <span class="kwd">=</span> "Rest";
+            h1.HandleRequest(request);
+
+            Console.ReadKey();
+        }
+    }<span class="com">////</span>
+
+   <span class="com"> /* output: 
+    
+     We translate word => "Job"
+
+		into French => "Travail"
+		into German => "Arbeit"
+		into Polish => "Praca"
+
+	 We translate word => "Rest"
+
+		into French => "Reste"
+		into German => "Rest"
+		into Polish => "Odpoczynek"
+     */</span>
+
+     </code></pre></div></body>
+</html>

@@ -1,0 +1,179 @@
+﻿<pre>
+/*
+Decorator
+    The Decorator memorizes the decorated objects, 
+what provides access to method of the memorized objects.
+*/
+using System;
+using System.Collections;
+using System.Collections.Generic;
+
+public abstract class AbstractList&lt;T>
+{
+    public List&lt;T> ListProduct;
+    //
+    public AbstractList(List&lt;T> ListProduct) 
+    {
+        this.ListProduct = ListProduct;
+    }
+    //
+    public T Add
+    {
+        set { ListProduct.Add(value); }
+    }
+}//
+//
+public interface PriceList
+{
+    void PriceList();
+}
+//
+public interface Discount
+{
+    void Discount(int discountPercentage);
+}
+public interface DataBaseInput
+{
+    void DataBaseInput();
+}
+//
+public interface Products : PriceList, Discount, DataBaseInput
+{
+}
+//
+public class Commoditys : AbstractList&lt;Commodity>, Products
+{
+    public Commoditys() : base(new List&lt;Commodity>()){}
+
+    public void PriceList()
+    {
+        foreach (Commodity c in ListProduct)
+            Console.WriteLine(" {0} {1} ", c.Name, c.Price);
+        Console.WriteLine("________________");
+    }
+    public void Discount(int discountPercentage)
+    {
+        Console.WriteLine("\nDiscount percentage: {0} \n", discountPercentage);
+        List&lt;Commodity> _listProduct = new List&lt;Commodity>();
+
+        foreach(Commodity c in ListProduct)
+        {
+            int percentage = 100 - discountPercentage;
+            decimal d = Math.Round((c.Price * percentage) / 100, 2);
+           _listProduct.Add(new Commodity(c.Name, d));
+        }
+        ListProduct = _listProduct;
+    }
+    public void DataBaseInput()
+    {
+        Add = new Commodity("C1", 100);
+        Add = new Commodity("C2", 200);
+        Add = new Commodity("C3", 300);
+    }
+}//
+//
+public class Propertys : AbstractList&lt;Property>, Products
+{
+    public Propertys() : base(new List&lt;Property>()) { }
+
+    public void PriceList()
+    {
+        foreach (Property c in ListProduct)
+            Console.WriteLine(" {0} {1} ", c.PropertyName, c.PropertyValue);
+        Console.WriteLine("________________");
+    }
+    public void Discount(int discountPercentage)
+    {
+        Console.WriteLine("\nDiscount percentage: {0} \n", discountPercentage);
+        List&lt;Property> _listProduct = new List&lt;Property>();
+
+        foreach (Property c in ListProduct)
+        {
+            int percentage = 100 - discountPercentage;
+            decimal d = Math.Round((c.PropertyValue * percentage) / 100, 2);
+            _listProduct.Add(new Property(c.PropertyName, d));
+        }
+        ListProduct = _listProduct;
+    }
+    public void DataBaseInput()
+    {
+        Add = new Property("P1", 100000);
+        Add = new Property("P2", 200000);
+        Add = new Property("P3", 300000);
+    }
+}
+//
+public class DiscountDecorator
+{
+    ArrayList _list = new ArrayList();
+
+    public int DiscountPercentage { get; set; }
+    //
+    public DiscountDecorator(Products p)
+    {
+        _list.Add(p);
+    }
+    public void PriceList()
+    {
+        Console.WriteLine("\nDiscount percentage: {0} \n", DiscountPercentage);
+        foreach (Products p in _list)
+        {
+            Console.WriteLine("\nBefor discount \n");
+            p.PriceList();
+
+            Console.WriteLine("\nAfter discount \n");
+            p.Discount(DiscountPercentage);
+            p.PriceList();
+        }
+    }
+    public void DataBaseInput()
+    {
+        Console.WriteLine("\nOdczyt z bazy danych\n");
+        foreach (Products p in _list)
+            p.DataBaseInput();
+    }//
+}
+class Client
+{
+    static void Main(string[] args)
+    {
+        DiscountDecorator discountDecorator = new DiscountDecorator(new Commoditys());
+        discountDecorator.DiscountPercentage = 50;
+ 
+        discountDecorator.DataBaseInput();
+        discountDecorator.PriceList();
+
+        discountDecorator = new DiscountDecorator(new Propertys());
+        discountDecorator.DiscountPercentage = 50;
+
+        discountDecorator.DataBaseInput();
+        discountDecorator.PriceList();
+
+        Console.ReadKey();
+    }//
+}//
+////Entity classes
+public class Commodity  
+{
+    public string  Name  { set; get; }
+    public decimal Price { set; get; }
+
+    public Commodity(string Name, decimal Price)
+    {
+        this.Name  = Name;
+        this.Price = Price;
+    }
+}
+//
+public class Property
+{ 
+    public string  PropertyName  { set; get; }
+    public decimal PropertyValue { set; get; }
+
+    public Property(string PropertyName, decimal PropertyValue)
+    {
+        this.PropertyName  = PropertyName;
+        this.PropertyValue = PropertyValue;
+    }
+}
+

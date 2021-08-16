@@ -1,0 +1,129 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Dokument bez tytułu</title>
+<!--<link href="../css/answer.css" rel="stylesheet" type="text/css">-->
+<link href="../../css/answer2.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    
+    <div class="tytul" id="head">
+      <h1>Iterator</h1>
+<h2>Behavioral patterns</h2></div>
+    <div class="post-text">
+      <pre><code>
+ <span class="com"> /*
+    Iterator 
+      Methoda: "object this []" allows you to treat object 
+    of any class as an array. This method also specifies 
+    what will be treated as an element of this array. 
+    Another class: "Iterator" provides methods for accessing  
+    elements of this array.
+    */</span>
+
+    using <span class="typ">System;</span>
+    using <span class="typ">System.Collections;</span>
+    <span class="com">//</span>
+    <span class="kwd">class </span>IteratedObject  
+    {
+        <span class="kwd">private</span> ArrayList _items <span class="kwd">= new</span> ArrayList<span class="kwd">()</span>;
+        <span class="kwd">public</span> int Count
+        {
+            get { return _items.Count; }
+        }<span class="com">//</span>
+        <span class="kwd">public object</span> this[int index]
+        {
+            get { return _items[index]; }
+            set { _items.Insert(index, value); }
+        }<span class="com">//</span>
+        <span class="kwd">public override</span> string ToString<span class="kwd">()</span>
+        {
+            return  <span class="str">" "</span> <span class="kwd">+</span> Count.ToString<span class="kwd">()</span>;
+        }<span class="com">//</span>
+    }<span class="com">//</span>
+   <span class="kwd">class</span> Iterator 
+    {
+        <span class="kwd">private</span> IteratedObject _iteratedObject;
+        <span class="kwd">private int</span> _current <span class="kwd">=</span> 0;
+
+        <span class="kwd">public</span> Iterator(IteratedObject objectIterowany)
+        {
+            _iteratedObject <span class="kwd">=</span> objectIterowany;
+        }
+        <span class="kwd">public</span>  object First<span class="kwd">()</span>
+        {
+            <span class="kwd">return</span> _iteratedObject[<span class="cyfr">0</span>];
+        }
+        <span class="kwd">public</span>  object Next<span class="kwd">()</span>
+        {
+            object ret <span class="kwd">= null</span>;
+            <span class="kwd">if</span> (_current < _iteratedObject.Count <span class="kwd">-</span> <span class="cyfr">1</span>)
+            {
+                ret <span class="kwd">=</span> _iteratedObject[<span class="kwd">++</span>_current];
+            }
+            <span class="kwd">return</span> ret;
+        }
+        <span class="kwd">public</span>  object CurrentItem<span class="kwd">()</span>
+        {
+            <span class="kwd">return</span> _iteratedObject[_current];
+        }
+        <span class="kwd">public  bool</span> IsDone<span class="kwd">()</span>
+        {
+            <span class="kwd">return</span> _current >= _iteratedObject.Count <span class="kwd">-</span><span class="cyfr">1</span> ;
+        }
+        <span class="kwd">public void</span> Reset<span class="kwd">()</span>
+        {
+            _current <span class="kwd">=</span> -<span class="cyfr">1</span>;
+        }
+    }<span class="com">//</span>
+    <span class="kwd">class</span> Client
+    {
+        <span class="kwd">static void</span> Main<span class="kwd">()</span>
+        {
+            IteratedObject tab <span class="kwd">= new</span> IteratedObject<span class="kwd">()</span>;
+            tab[<span class="cyfr">0</span>] <span class="kwd">=</span> <span class="str">"xxx"</span>;
+            tab[<span class="cyfr">1</span>] <span class="kwd">=</span> <span class="str">"yyy"</span>;
+            tab[<span class="cyfr">2</span>] <span class="kwd">=</span> <span class="str">"zzz"</span>;
+            <span class="com">//</span>
+            IteratedObject table <span class="kwd">= new</span> IteratedObject<span class="kwd">()</span>;
+            table[<span class="cyfr">0</span>] <span class="kwd">=</span> tab;
+            table[<span class="cyfr">1</span>] <span class="kwd">=</span> new IteratedObject<span class="kwd">()</span>;
+            table[<span class="cyfr">2</span>] <span class="kwd">=</span> <span class="str">"Item C"</span>;
+            table[<span class="cyfr">3</span>] <span class="kwd">=</span> tab[<span class="cyfr">2</span>];
+            table[<span class="cyfr">4</span>] <span class="kwd">=</span> <span class="cyfr">5.55</span>;
+            <span class="com">//</span>
+            Iterator i <span class="kwd">= new</span> Iterator(table);
+            object item <span class="kwd">=</span> i.First<span class="kwd">()</span>;
+            <span class="com">//</span>
+            while (item <span class="kwd">!= null</span>)
+            {
+                Console.WriteLine(item);
+                item <span class="kwd">==</span> i.Next<span class="kwd">()</span>;
+            }
+            <span class="com">//</span>
+            i.Reset<span class="kwd">()</span>;
+            while (!i.IsDone<span class="kwd">()</span>)
+            {
+                Console.WriteLine(i.Next<span class="kwd">()</span>);
+            }
+            <span class="com">//</span>
+            Console.ReadKey<span class="kwd">()</span>;
+        }
+    }
+    <span class="com">/*output:
+     3
+     0
+     Item C
+     zzz
+     5.55
+     3
+     0
+     Item C
+     zzz
+     5.55
+    */</span>
+
+     </code></pre></div></body>
+</html>

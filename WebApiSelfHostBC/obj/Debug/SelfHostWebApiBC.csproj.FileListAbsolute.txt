@@ -1,0 +1,1043 @@
+C:\Users\edu\Desktop\SelfHostWebApiBC\bin\Debug\SelfHostWebApiBC.exe.config
+C:\Users\edu\Desktop\SelfHostWebApiBC\bin\Debug\SelfHostWebApiBC.exe
+C:\Users\edu\Desktop\SelfHostWebApiBC\bin\Debug\SelfHostWebApiBC.pdb
+C:\Users\edu\Desktop\SelfHostWebApiBC\bin\Debug\EntityFramework.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC\bin\Debug\EntityFramework.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC\obj\Debug\SelfHostWebApiBC.csprojAssemblyReference.cache
+C:\Users\edu\Desktop\SelfHostWebApiBC\obj\Debug\SelfHostWebApiBC.csproj.CoreCompileInputs.cache
+C:\Users\edu\Desktop\SelfHostWebApiBC\obj\Debug\SelfHostWebApiBC.csproj.CopyComplete
+C:\Users\edu\Desktop\SelfHostWebApiBC\obj\Debug\SelfHostWebApiBC.exe
+C:\Users\edu\Desktop\SelfHostWebApiBC\obj\Debug\SelfHostWebApiBC.pdb
+C:\Users\edu\Desktop\SelfHostWebApiBC\bin\Debug\Microsoft.Owin.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC\bin\Debug\Microsoft.Owin.Host.HttpListener.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC\bin\Debug\Microsoft.Owin.Hosting.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC\bin\Debug\Newtonsoft.Json.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC\bin\Debug\Owin.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC\bin\Debug\System.Web.Http.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC\bin\Debug\System.Web.Http.Owin.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC\bin\Debug\Microsoft.Owin.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC\bin\Debug\Microsoft.Owin.Host.HttpListener.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC\bin\Debug\Microsoft.Owin.Hosting.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC\bin\Debug\Newtonsoft.Json.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC\bin\Debug\System.Web.Http.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC\bin\Debug\System.Web.Http.Owin.xml
+C:\Users\edu\Desktop\NewSelfHostWebApiBC\obj\Debug\SelfHostWebApiBC.csprojAssemblyReference.cache
+C:\Users\edu\Desktop\NewSelfHostWebApiBC\obj\Debug\SelfHostWebApiBC.csproj.CoreCompileInputs.cache
+C:\Users\edu\Desktop\NewSelfHostWebApiBC\obj\Debug\SelfHostWebApiBC.exe
+C:\Users\edu\Desktop\NewSelfHostWebApiBC\obj\Debug\SelfHostWebApiBC.pdb
+C:\Users\edu\Desktop\NewSelfHostWebApiBC\bin\Debug\SelfHostWebApiBC.exe.config
+C:\Users\edu\Desktop\NewSelfHostWebApiBC\bin\Debug\SelfHostWebApiBC.exe
+C:\Users\edu\Desktop\NewSelfHostWebApiBC\bin\Debug\SelfHostWebApiBC.pdb
+C:\Users\edu\Desktop\NewSelfHostWebApiBC\bin\Debug\EntityFramework.dll
+C:\Users\edu\Desktop\NewSelfHostWebApiBC\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\edu\Desktop\NewSelfHostWebApiBC\bin\Debug\Microsoft.Owin.dll
+C:\Users\edu\Desktop\NewSelfHostWebApiBC\bin\Debug\Microsoft.Owin.Host.HttpListener.dll
+C:\Users\edu\Desktop\NewSelfHostWebApiBC\bin\Debug\Microsoft.Owin.Hosting.dll
+C:\Users\edu\Desktop\NewSelfHostWebApiBC\bin\Debug\Newtonsoft.Json.dll
+C:\Users\edu\Desktop\NewSelfHostWebApiBC\bin\Debug\Owin.dll
+C:\Users\edu\Desktop\NewSelfHostWebApiBC\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\edu\Desktop\NewSelfHostWebApiBC\bin\Debug\System.Web.Http.dll
+C:\Users\edu\Desktop\NewSelfHostWebApiBC\bin\Debug\System.Web.Http.Owin.dll
+C:\Users\edu\Desktop\NewSelfHostWebApiBC\bin\Debug\EntityFramework.xml
+C:\Users\edu\Desktop\NewSelfHostWebApiBC\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\edu\Desktop\NewSelfHostWebApiBC\bin\Debug\Microsoft.Owin.xml
+C:\Users\edu\Desktop\NewSelfHostWebApiBC\bin\Debug\Microsoft.Owin.Host.HttpListener.xml
+C:\Users\edu\Desktop\NewSelfHostWebApiBC\bin\Debug\Microsoft.Owin.Hosting.xml
+C:\Users\edu\Desktop\NewSelfHostWebApiBC\bin\Debug\Newtonsoft.Json.xml
+C:\Users\edu\Desktop\NewSelfHostWebApiBC\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\edu\Desktop\NewSelfHostWebApiBC\bin\Debug\System.Web.Http.xml
+C:\Users\edu\Desktop\NewSelfHostWebApiBC\bin\Debug\System.Web.Http.Owin.xml
+C:\Users\edu\Desktop\NewSelfHostWebApiBC\obj\Debug\SelfHostWebApiBC.csproj.CopyComplete
+C:\Users\edu\Desktop\NewSelfHostWebApiBC\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\edu\Desktop\NewSelfHostWebApiBC\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\edu\Desktop\NewSelfHostWebApiBC\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\edu\Desktop\NewSelfHostWebApiBC\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\edu\Desktop\NewSelfHostWebApiBC\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\edu\Desktop\NewSelfHostWebApiBC\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\edu\Desktop\NewSelfHostWebApiBC\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+C:\Users\edu\Desktop\NewSelfHostWebApiBC\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\edu\Desktop\NewSelfHostWebApiBC\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\edu\Desktop\NewSelfHostWebApiBC\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\edu\Desktop\New2SelfHostWebApiBC\obj\Debug\SelfHostWebApiBC.csprojAssemblyReference.cache
+C:\Users\edu\Desktop\New2SelfHostWebApiBC\obj\Debug\SelfHostWebApiBC.csproj.CoreCompileInputs.cache
+C:\Users\edu\Desktop\New2SelfHostWebApiBC\obj\Debug\SelfHostWebApiBC.exe
+C:\Users\edu\Desktop\New2SelfHostWebApiBC\obj\Debug\SelfHostWebApiBC.pdb
+C:\Users\edu\Desktop\New2SelfHostWebApiBC\bin\Debug\SelfHostWebApiBC.exe.config
+C:\Users\edu\Desktop\New2SelfHostWebApiBC\bin\Debug\SelfHostWebApiBC.exe
+C:\Users\edu\Desktop\New2SelfHostWebApiBC\bin\Debug\SelfHostWebApiBC.pdb
+C:\Users\edu\Desktop\New2SelfHostWebApiBC\bin\Debug\EntityFramework.dll
+C:\Users\edu\Desktop\New2SelfHostWebApiBC\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\edu\Desktop\New2SelfHostWebApiBC\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\edu\Desktop\New2SelfHostWebApiBC\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\edu\Desktop\New2SelfHostWebApiBC\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\edu\Desktop\New2SelfHostWebApiBC\bin\Debug\Microsoft.Owin.dll
+C:\Users\edu\Desktop\New2SelfHostWebApiBC\bin\Debug\Microsoft.Owin.Host.HttpListener.dll
+C:\Users\edu\Desktop\New2SelfHostWebApiBC\bin\Debug\Microsoft.Owin.Hosting.dll
+C:\Users\edu\Desktop\New2SelfHostWebApiBC\bin\Debug\Newtonsoft.Json.dll
+C:\Users\edu\Desktop\New2SelfHostWebApiBC\bin\Debug\Owin.dll
+C:\Users\edu\Desktop\New2SelfHostWebApiBC\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\edu\Desktop\New2SelfHostWebApiBC\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\edu\Desktop\New2SelfHostWebApiBC\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\edu\Desktop\New2SelfHostWebApiBC\bin\Debug\System.Web.Http.dll
+C:\Users\edu\Desktop\New2SelfHostWebApiBC\bin\Debug\System.Web.Http.Owin.dll
+C:\Users\edu\Desktop\New2SelfHostWebApiBC\bin\Debug\EntityFramework.xml
+C:\Users\edu\Desktop\New2SelfHostWebApiBC\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\edu\Desktop\New2SelfHostWebApiBC\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\edu\Desktop\New2SelfHostWebApiBC\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+C:\Users\edu\Desktop\New2SelfHostWebApiBC\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\edu\Desktop\New2SelfHostWebApiBC\bin\Debug\Microsoft.Owin.xml
+C:\Users\edu\Desktop\New2SelfHostWebApiBC\bin\Debug\Microsoft.Owin.Host.HttpListener.xml
+C:\Users\edu\Desktop\New2SelfHostWebApiBC\bin\Debug\Microsoft.Owin.Hosting.xml
+C:\Users\edu\Desktop\New2SelfHostWebApiBC\bin\Debug\Newtonsoft.Json.xml
+C:\Users\edu\Desktop\New2SelfHostWebApiBC\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\edu\Desktop\New2SelfHostWebApiBC\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\edu\Desktop\New2SelfHostWebApiBC\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\edu\Desktop\New2SelfHostWebApiBC\bin\Debug\System.Web.Http.xml
+C:\Users\edu\Desktop\New2SelfHostWebApiBC\bin\Debug\System.Web.Http.Owin.xml
+C:\Users\edu\Desktop\New2SelfHostWebApiBC\obj\Debug\SelfHostWebApiBC.csproj.CopyComplete
+C:\Users\edu\Desktop\SelfHostWebApiBC1\obj\Debug\SelfHostWebApiBC.csprojAssemblyReference.cache
+C:\Users\edu\Desktop\SelfHostWebApiBC1\obj\Debug\SelfHostWebApiBC.csproj.CoreCompileInputs.cache
+C:\Users\edu\Desktop\SelfHostWebApiBC1\obj\Debug\SelfHostWebApiBC.exe
+C:\Users\edu\Desktop\SelfHostWebApiBC1\obj\Debug\SelfHostWebApiBC.pdb
+C:\Users\edu\Desktop\SelfHostWebApiBC1\bin\Debug\SelfHostWebApiBC.exe.config
+C:\Users\edu\Desktop\SelfHostWebApiBC1\bin\Debug\SelfHostWebApiBC.exe
+C:\Users\edu\Desktop\SelfHostWebApiBC1\bin\Debug\SelfHostWebApiBC.pdb
+C:\Users\edu\Desktop\SelfHostWebApiBC1\bin\Debug\EntityFramework.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC1\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC1\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC1\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC1\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC1\bin\Debug\Microsoft.Owin.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC1\bin\Debug\Microsoft.Owin.Host.HttpListener.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC1\bin\Debug\Microsoft.Owin.Hosting.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC1\bin\Debug\Newtonsoft.Json.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC1\bin\Debug\Owin.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC1\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC1\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC1\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC1\bin\Debug\System.Web.Http.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC1\bin\Debug\System.Web.Http.Owin.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC1\bin\Debug\EntityFramework.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC1\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC1\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC1\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC1\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC1\bin\Debug\Microsoft.Owin.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC1\bin\Debug\Microsoft.Owin.Host.HttpListener.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC1\bin\Debug\Microsoft.Owin.Hosting.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC1\bin\Debug\Newtonsoft.Json.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC1\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC1\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC1\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC1\bin\Debug\System.Web.Http.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC1\bin\Debug\System.Web.Http.Owin.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC1\obj\Debug\SelfHostWebApiBC.csproj.CopyComplete
+C:\Users\edu\Desktop\SelfHostWebApiBC2\bin\Debug\SelfHostWebApiBC.exe.config
+C:\Users\edu\Desktop\SelfHostWebApiBC2\bin\Debug\SelfHostWebApiBC.exe
+C:\Users\edu\Desktop\SelfHostWebApiBC2\bin\Debug\SelfHostWebApiBC.pdb
+C:\Users\edu\Desktop\SelfHostWebApiBC2\bin\Debug\EntityFramework.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC2\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC2\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC2\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC2\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC2\bin\Debug\Microsoft.Owin.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC2\bin\Debug\Microsoft.Owin.Host.HttpListener.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC2\bin\Debug\Microsoft.Owin.Hosting.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC2\bin\Debug\Newtonsoft.Json.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC2\bin\Debug\Owin.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC2\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC2\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC2\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC2\bin\Debug\System.Web.Http.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC2\bin\Debug\System.Web.Http.Owin.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC2\bin\Debug\EntityFramework.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC2\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC2\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC2\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC2\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC2\bin\Debug\Microsoft.Owin.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC2\bin\Debug\Microsoft.Owin.Host.HttpListener.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC2\bin\Debug\Microsoft.Owin.Hosting.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC2\bin\Debug\Newtonsoft.Json.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC2\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC2\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC2\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC2\bin\Debug\System.Web.Http.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC2\bin\Debug\System.Web.Http.Owin.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC2\obj\Debug\SelfHostWebApiBC.csprojAssemblyReference.cache
+C:\Users\edu\Desktop\SelfHostWebApiBC2\obj\Debug\SelfHostWebApiBC.csproj.CoreCompileInputs.cache
+C:\Users\edu\Desktop\SelfHostWebApiBC2\obj\Debug\SelfHostWebApiBC.csproj.CopyComplete
+C:\Users\edu\Desktop\SelfHostWebApiBC2\obj\Debug\SelfHostWebApiBC.exe
+C:\Users\edu\Desktop\SelfHostWebApiBC2\obj\Debug\SelfHostWebApiBC.pdb
+C:\Users\edu\Desktop\SelfHostWebApiBC3\obj\Debug\SelfHostWebApiBC.csprojAssemblyReference.cache
+C:\Users\edu\Desktop\SelfHostWebApiBC3\obj\Debug\SelfHostWebApiBC.csproj.CoreCompileInputs.cache
+C:\Users\edu\Desktop\SelfHostWebApiBC3\obj\Debug\SelfHostWebApiBC.exe
+C:\Users\edu\Desktop\SelfHostWebApiBC3\obj\Debug\SelfHostWebApiBC.pdb
+C:\Users\edu\Desktop\SelfHostWebApiBC3\bin\Debug\SelfHostWebApiBC.exe.config
+C:\Users\edu\Desktop\SelfHostWebApiBC3\bin\Debug\SelfHostWebApiBC.exe
+C:\Users\edu\Desktop\SelfHostWebApiBC3\bin\Debug\SelfHostWebApiBC.pdb
+C:\Users\edu\Desktop\SelfHostWebApiBC3\bin\Debug\EntityFramework.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC3\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC3\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC3\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC3\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC3\bin\Debug\Microsoft.Owin.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC3\bin\Debug\Microsoft.Owin.Host.HttpListener.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC3\bin\Debug\Microsoft.Owin.Hosting.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC3\bin\Debug\Newtonsoft.Json.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC3\bin\Debug\Owin.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC3\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC3\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC3\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC3\bin\Debug\System.Web.Http.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC3\bin\Debug\System.Web.Http.Owin.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC3\bin\Debug\EntityFramework.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC3\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC3\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC3\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC3\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC3\bin\Debug\Microsoft.Owin.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC3\bin\Debug\Microsoft.Owin.Host.HttpListener.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC3\bin\Debug\Microsoft.Owin.Hosting.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC3\bin\Debug\Newtonsoft.Json.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC3\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC3\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC3\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC3\bin\Debug\System.Web.Http.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC3\bin\Debug\System.Web.Http.Owin.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC3\obj\Debug\SelfHostWebApiBC.csproj.CopyComplete
+C:\Users\edu\Desktop\SelfHostWebApiBC4\bin\Debug\SelfHostWebApiBC.exe.config
+C:\Users\edu\Desktop\SelfHostWebApiBC4\bin\Debug\SelfHostWebApiBC.exe
+C:\Users\edu\Desktop\SelfHostWebApiBC4\bin\Debug\SelfHostWebApiBC.pdb
+C:\Users\edu\Desktop\SelfHostWebApiBC4\bin\Debug\EntityFramework.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC4\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC4\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC4\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC4\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC4\bin\Debug\Microsoft.Owin.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC4\bin\Debug\Microsoft.Owin.Host.HttpListener.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC4\bin\Debug\Microsoft.Owin.Hosting.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC4\bin\Debug\Newtonsoft.Json.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC4\bin\Debug\Owin.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC4\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC4\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC4\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC4\bin\Debug\System.Web.Http.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC4\bin\Debug\System.Web.Http.Owin.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC4\bin\Debug\EntityFramework.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC4\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC4\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC4\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC4\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC4\bin\Debug\Microsoft.Owin.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC4\bin\Debug\Microsoft.Owin.Host.HttpListener.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC4\bin\Debug\Microsoft.Owin.Hosting.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC4\bin\Debug\Newtonsoft.Json.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC4\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC4\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC4\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC4\bin\Debug\System.Web.Http.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC4\bin\Debug\System.Web.Http.Owin.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC4\obj\Debug\SelfHostWebApiBC.csprojAssemblyReference.cache
+C:\Users\edu\Desktop\SelfHostWebApiBC4\obj\Debug\SelfHostWebApiBC.csproj.CoreCompileInputs.cache
+C:\Users\edu\Desktop\SelfHostWebApiBC4\obj\Debug\SelfHostWebApiBC.csproj.CopyComplete
+C:\Users\edu\Desktop\SelfHostWebApiBC4\obj\Debug\SelfHostWebApiBC.exe
+C:\Users\edu\Desktop\SelfHostWebApiBC4\obj\Debug\SelfHostWebApiBC.pdb
+C:\Users\edu\Desktop\SelfHostWebApiBC5\bin\Debug\SelfHostWebApiBC.exe.config
+C:\Users\edu\Desktop\SelfHostWebApiBC5\bin\Debug\SelfHostWebApiBC.exe
+C:\Users\edu\Desktop\SelfHostWebApiBC5\bin\Debug\SelfHostWebApiBC.pdb
+C:\Users\edu\Desktop\SelfHostWebApiBC5\bin\Debug\EntityFramework.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC5\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC5\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC5\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC5\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC5\bin\Debug\Microsoft.Owin.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC5\bin\Debug\Microsoft.Owin.Host.HttpListener.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC5\bin\Debug\Microsoft.Owin.Hosting.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC5\bin\Debug\Newtonsoft.Json.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC5\bin\Debug\Owin.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC5\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC5\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC5\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC5\bin\Debug\System.Web.Http.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC5\bin\Debug\System.Web.Http.Owin.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC5\bin\Debug\EntityFramework.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC5\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC5\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC5\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC5\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC5\bin\Debug\Microsoft.Owin.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC5\bin\Debug\Microsoft.Owin.Host.HttpListener.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC5\bin\Debug\Microsoft.Owin.Hosting.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC5\bin\Debug\Newtonsoft.Json.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC5\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC5\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC5\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC5\bin\Debug\System.Web.Http.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC5\bin\Debug\System.Web.Http.Owin.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC5\obj\Debug\SelfHostWebApiBC.csprojAssemblyReference.cache
+C:\Users\edu\Desktop\SelfHostWebApiBC5\obj\Debug\SelfHostWebApiBC.csproj.CoreCompileInputs.cache
+C:\Users\edu\Desktop\SelfHostWebApiBC5\obj\Debug\SelfHostWebApiBC.csproj.CopyComplete
+C:\Users\edu\Desktop\SelfHostWebApiBC5\obj\Debug\SelfHostWebApiBC.exe
+C:\Users\edu\Desktop\SelfHostWebApiBC5\obj\Debug\SelfHostWebApiBC.pdb
+C:\Users\edu\Desktop\SelfHostWebApiBC5B\bin\Debug\SelfHostWebApiBC.exe.config
+C:\Users\edu\Desktop\SelfHostWebApiBC5B\bin\Debug\SelfHostWebApiBC.exe
+C:\Users\edu\Desktop\SelfHostWebApiBC5B\bin\Debug\SelfHostWebApiBC.pdb
+C:\Users\edu\Desktop\SelfHostWebApiBC5B\bin\Debug\EntityFramework.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC5B\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC5B\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC5B\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC5B\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC5B\bin\Debug\Microsoft.Owin.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC5B\bin\Debug\Microsoft.Owin.Host.HttpListener.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC5B\bin\Debug\Microsoft.Owin.Hosting.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC5B\bin\Debug\Newtonsoft.Json.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC5B\bin\Debug\Owin.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC5B\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC5B\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC5B\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC5B\bin\Debug\System.Web.Http.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC5B\bin\Debug\System.Web.Http.Owin.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC5B\bin\Debug\EntityFramework.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC5B\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC5B\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC5B\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC5B\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC5B\bin\Debug\Microsoft.Owin.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC5B\bin\Debug\Microsoft.Owin.Host.HttpListener.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC5B\bin\Debug\Microsoft.Owin.Hosting.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC5B\bin\Debug\Newtonsoft.Json.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC5B\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC5B\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC5B\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC5B\bin\Debug\System.Web.Http.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC5B\bin\Debug\System.Web.Http.Owin.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC5B\obj\Debug\SelfHostWebApiBC.csprojAssemblyReference.cache
+C:\Users\edu\Desktop\SelfHostWebApiBC5B\obj\Debug\SelfHostWebApiBC.csproj.CoreCompileInputs.cache
+C:\Users\edu\Desktop\SelfHostWebApiBC5B\obj\Debug\SelfHostWebApiBC.csproj.CopyComplete
+C:\Users\edu\Desktop\SelfHostWebApiBC5B\obj\Debug\SelfHostWebApiBC.exe
+C:\Users\edu\Desktop\SelfHostWebApiBC5B\obj\Debug\SelfHostWebApiBC.pdb
+C:\Users\edu\Desktop\SelfHostWebApiBC7\bin\Debug\SelfHostWebApiBC.exe.config
+C:\Users\edu\Desktop\SelfHostWebApiBC7\bin\Debug\SelfHostWebApiBC.exe
+C:\Users\edu\Desktop\SelfHostWebApiBC7\bin\Debug\SelfHostWebApiBC.pdb
+C:\Users\edu\Desktop\SelfHostWebApiBC7\bin\Debug\EntityFramework.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC7\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC7\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC7\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC7\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC7\bin\Debug\Microsoft.Owin.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC7\bin\Debug\Microsoft.Owin.Host.HttpListener.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC7\bin\Debug\Microsoft.Owin.Hosting.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC7\bin\Debug\Newtonsoft.Json.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC7\bin\Debug\Owin.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC7\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC7\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC7\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC7\bin\Debug\System.Web.Http.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC7\bin\Debug\System.Web.Http.Owin.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC7\bin\Debug\EntityFramework.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC7\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC7\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC7\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC7\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC7\bin\Debug\Microsoft.Owin.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC7\bin\Debug\Microsoft.Owin.Host.HttpListener.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC7\bin\Debug\Microsoft.Owin.Hosting.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC7\bin\Debug\Newtonsoft.Json.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC7\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC7\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC7\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC7\bin\Debug\System.Web.Http.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC7\bin\Debug\System.Web.Http.Owin.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC7\obj\Debug\SelfHostWebApiBC.csprojAssemblyReference.cache
+C:\Users\edu\Desktop\SelfHostWebApiBC7\obj\Debug\SelfHostWebApiBC.csproj.CoreCompileInputs.cache
+C:\Users\edu\Desktop\SelfHostWebApiBC7\obj\Debug\SelfHostWebApiBC.csproj.CopyComplete
+C:\Users\edu\Desktop\SelfHostWebApiBC7\obj\Debug\SelfHostWebApiBC.exe
+C:\Users\edu\Desktop\SelfHostWebApiBC7\obj\Debug\SelfHostWebApiBC.pdb
+C:\Users\edu\Desktop\SelfHostWebApiBC-final1\bin\Debug\SelfHostWebApiBC.exe.config
+C:\Users\edu\Desktop\SelfHostWebApiBC-final1\bin\Debug\SelfHostWebApiBC.exe
+C:\Users\edu\Desktop\SelfHostWebApiBC-final1\bin\Debug\SelfHostWebApiBC.pdb
+C:\Users\edu\Desktop\SelfHostWebApiBC-final1\bin\Debug\EntityFramework.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final1\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final1\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final1\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final1\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final1\bin\Debug\Microsoft.Owin.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final1\bin\Debug\Microsoft.Owin.Host.HttpListener.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final1\bin\Debug\Microsoft.Owin.Hosting.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final1\bin\Debug\Newtonsoft.Json.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final1\bin\Debug\Owin.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final1\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final1\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final1\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final1\bin\Debug\System.Web.Http.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final1\bin\Debug\System.Web.Http.Owin.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final1\bin\Debug\EntityFramework.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final1\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final1\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final1\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final1\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final1\bin\Debug\Microsoft.Owin.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final1\bin\Debug\Microsoft.Owin.Host.HttpListener.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final1\bin\Debug\Microsoft.Owin.Hosting.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final1\bin\Debug\Newtonsoft.Json.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final1\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final1\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final1\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final1\bin\Debug\System.Web.Http.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final1\bin\Debug\System.Web.Http.Owin.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final1\obj\Debug\SelfHostWebApiBC.csprojAssemblyReference.cache
+C:\Users\edu\Desktop\SelfHostWebApiBC-final1\obj\Debug\SelfHostWebApiBC.csproj.CoreCompileInputs.cache
+C:\Users\edu\Desktop\SelfHostWebApiBC-final1\obj\Debug\SelfHostWebApiBC.csproj.CopyComplete
+C:\Users\edu\Desktop\SelfHostWebApiBC-final1\obj\Debug\SelfHostWebApiBC.exe
+C:\Users\edu\Desktop\SelfHostWebApiBC-final1\obj\Debug\SelfHostWebApiBC.pdb
+C:\Users\edu\Desktop\SelfHostWebApiBC-final\obj\Debug\SelfHostWebApiBC.csprojAssemblyReference.cache
+C:\Users\edu\Desktop\SelfHostWebApiBC-final\obj\Debug\SelfHostWebApiBC.csproj.CoreCompileInputs.cache
+C:\Users\edu\Desktop\SelfHostWebApiBC-final\obj\Debug\SelfHostWebApiBC.exe
+C:\Users\edu\Desktop\SelfHostWebApiBC-final\obj\Debug\SelfHostWebApiBC.pdb
+C:\Users\edu\Desktop\SelfHostWebApiBC-final\bin\Debug\SelfHostWebApiBC.exe.config
+C:\Users\edu\Desktop\SelfHostWebApiBC-final\bin\Debug\SelfHostWebApiBC.exe
+C:\Users\edu\Desktop\SelfHostWebApiBC-final\bin\Debug\SelfHostWebApiBC.pdb
+C:\Users\edu\Desktop\SelfHostWebApiBC-final\bin\Debug\EntityFramework.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final\bin\Debug\Microsoft.Owin.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final\bin\Debug\Microsoft.Owin.Host.HttpListener.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final\bin\Debug\Microsoft.Owin.Hosting.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final\bin\Debug\Newtonsoft.Json.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final\bin\Debug\Owin.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final\bin\Debug\System.Web.Http.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final\bin\Debug\System.Web.Http.Owin.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final\bin\Debug\EntityFramework.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final\bin\Debug\Microsoft.Owin.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final\bin\Debug\Microsoft.Owin.Host.HttpListener.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final\bin\Debug\Microsoft.Owin.Hosting.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final\bin\Debug\Newtonsoft.Json.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final\bin\Debug\System.Web.Http.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final\bin\Debug\System.Web.Http.Owin.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final\obj\Debug\SelfHostWebApiBC.csproj.CopyComplete
+C:\Users\edu\Desktop\SelfHostWebApiBC-final II\bin\Debug\SelfHostWebApiBC.exe.config
+C:\Users\edu\Desktop\SelfHostWebApiBC-final II\bin\Debug\SelfHostWebApiBC.exe
+C:\Users\edu\Desktop\SelfHostWebApiBC-final II\bin\Debug\SelfHostWebApiBC.pdb
+C:\Users\edu\Desktop\SelfHostWebApiBC-final II\bin\Debug\EntityFramework.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final II\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final II\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final II\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final II\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final II\bin\Debug\Microsoft.Owin.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final II\bin\Debug\Microsoft.Owin.Host.HttpListener.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final II\bin\Debug\Microsoft.Owin.Hosting.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final II\bin\Debug\Newtonsoft.Json.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final II\bin\Debug\Owin.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final II\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final II\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final II\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final II\bin\Debug\System.Web.Http.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final II\bin\Debug\System.Web.Http.Owin.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final II\bin\Debug\EntityFramework.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final II\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final II\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final II\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final II\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final II\bin\Debug\Microsoft.Owin.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final II\bin\Debug\Microsoft.Owin.Host.HttpListener.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final II\bin\Debug\Microsoft.Owin.Hosting.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final II\bin\Debug\Newtonsoft.Json.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final II\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final II\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final II\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final II\bin\Debug\System.Web.Http.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final II\bin\Debug\System.Web.Http.Owin.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final II\obj\Debug\SelfHostWebApiBC.csprojAssemblyReference.cache
+C:\Users\edu\Desktop\SelfHostWebApiBC-final II\obj\Debug\SelfHostWebApiBC.csproj.CoreCompileInputs.cache
+C:\Users\edu\Desktop\SelfHostWebApiBC-final II\obj\Debug\SelfHostWebApiBC.csproj.CopyComplete
+C:\Users\edu\Desktop\SelfHostWebApiBC-final II\obj\Debug\SelfHostWebApiBC.exe
+C:\Users\edu\Desktop\SelfHostWebApiBC-final II\obj\Debug\SelfHostWebApiBC.pdb
+C:\Users\edu\Desktop\SelfHostWebApiBC-final IV\bin\Debug\SelfHostWebApiBC.exe.config
+C:\Users\edu\Desktop\SelfHostWebApiBC-final IV\bin\Debug\SelfHostWebApiBC.exe
+C:\Users\edu\Desktop\SelfHostWebApiBC-final IV\bin\Debug\SelfHostWebApiBC.pdb
+C:\Users\edu\Desktop\SelfHostWebApiBC-final IV\bin\Debug\EntityFramework.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final IV\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final IV\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final IV\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final IV\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final IV\bin\Debug\Microsoft.Owin.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final IV\bin\Debug\Microsoft.Owin.Host.HttpListener.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final IV\bin\Debug\Microsoft.Owin.Hosting.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final IV\bin\Debug\Newtonsoft.Json.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final IV\bin\Debug\Owin.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final IV\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final IV\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final IV\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final IV\bin\Debug\System.Web.Http.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final IV\bin\Debug\System.Web.Http.Owin.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final IV\bin\Debug\EntityFramework.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final IV\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final IV\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final IV\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final IV\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final IV\bin\Debug\Microsoft.Owin.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final IV\bin\Debug\Microsoft.Owin.Host.HttpListener.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final IV\bin\Debug\Microsoft.Owin.Hosting.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final IV\bin\Debug\Newtonsoft.Json.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final IV\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final IV\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final IV\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final IV\bin\Debug\System.Web.Http.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final IV\bin\Debug\System.Web.Http.Owin.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final IV\obj\Debug\SelfHostWebApiBC.csprojAssemblyReference.cache
+C:\Users\edu\Desktop\SelfHostWebApiBC-final IV\obj\Debug\SelfHostWebApiBC.csproj.CoreCompileInputs.cache
+C:\Users\edu\Desktop\SelfHostWebApiBC-final IV\obj\Debug\SelfHostWebApiBC.csproj.CopyComplete
+C:\Users\edu\Desktop\SelfHostWebApiBC-final IV\obj\Debug\SelfHostWebApiBC.exe
+C:\Users\edu\Desktop\SelfHostWebApiBC-final IV\obj\Debug\SelfHostWebApiBC.pdb
+C:\Users\edu\Desktop\SelfHostWebApiBC-final V\bin\Debug\SelfHostWebApiBC.exe.config
+C:\Users\edu\Desktop\SelfHostWebApiBC-final V\bin\Debug\SelfHostWebApiBC.exe
+C:\Users\edu\Desktop\SelfHostWebApiBC-final V\bin\Debug\SelfHostWebApiBC.pdb
+C:\Users\edu\Desktop\SelfHostWebApiBC-final V\bin\Debug\EntityFramework.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final V\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final V\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final V\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final V\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final V\bin\Debug\Microsoft.Owin.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final V\bin\Debug\Microsoft.Owin.Host.HttpListener.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final V\bin\Debug\Microsoft.Owin.Hosting.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final V\bin\Debug\Newtonsoft.Json.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final V\bin\Debug\Owin.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final V\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final V\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final V\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final V\bin\Debug\System.Web.Http.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final V\bin\Debug\System.Web.Http.Owin.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final V\bin\Debug\EntityFramework.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final V\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final V\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final V\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final V\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final V\bin\Debug\Microsoft.Owin.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final V\bin\Debug\Microsoft.Owin.Host.HttpListener.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final V\bin\Debug\Microsoft.Owin.Hosting.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final V\bin\Debug\Newtonsoft.Json.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final V\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final V\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final V\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final V\bin\Debug\System.Web.Http.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final V\bin\Debug\System.Web.Http.Owin.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final V\obj\Debug\SelfHostWebApiBC.csprojAssemblyReference.cache
+C:\Users\edu\Desktop\SelfHostWebApiBC-final V\obj\Debug\SelfHostWebApiBC.csproj.CoreCompileInputs.cache
+C:\Users\edu\Desktop\SelfHostWebApiBC-final V\obj\Debug\SelfHostWebApiBC.csproj.CopyComplete
+C:\Users\edu\Desktop\SelfHostWebApiBC-final V\obj\Debug\SelfHostWebApiBC.exe
+C:\Users\edu\Desktop\SelfHostWebApiBC-final V\obj\Debug\SelfHostWebApiBC.pdb
+C:\Users\edu\Desktop\SelfHostWebApiBC-final VI\bin\Debug\SelfHostWebApiBC.exe.config
+C:\Users\edu\Desktop\SelfHostWebApiBC-final VI\bin\Debug\SelfHostWebApiBC.exe
+C:\Users\edu\Desktop\SelfHostWebApiBC-final VI\bin\Debug\SelfHostWebApiBC.pdb
+C:\Users\edu\Desktop\SelfHostWebApiBC-final VI\bin\Debug\EntityFramework.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final VI\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final VI\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final VI\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final VI\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final VI\bin\Debug\Microsoft.Owin.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final VI\bin\Debug\Microsoft.Owin.Host.HttpListener.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final VI\bin\Debug\Microsoft.Owin.Hosting.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final VI\bin\Debug\Newtonsoft.Json.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final VI\bin\Debug\Owin.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final VI\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final VI\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final VI\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final VI\bin\Debug\System.Web.Http.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final VI\bin\Debug\System.Web.Http.Owin.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final VI\bin\Debug\EntityFramework.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final VI\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final VI\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final VI\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final VI\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final VI\bin\Debug\Microsoft.Owin.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final VI\bin\Debug\Microsoft.Owin.Host.HttpListener.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final VI\bin\Debug\Microsoft.Owin.Hosting.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final VI\bin\Debug\Newtonsoft.Json.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final VI\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final VI\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final VI\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final VI\bin\Debug\System.Web.Http.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final VI\bin\Debug\System.Web.Http.Owin.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final VI\obj\Debug\SelfHostWebApiBC.csprojAssemblyReference.cache
+C:\Users\edu\Desktop\SelfHostWebApiBC-final VI\obj\Debug\SelfHostWebApiBC.csproj.CoreCompileInputs.cache
+C:\Users\edu\Desktop\SelfHostWebApiBC-final VI\obj\Debug\SelfHostWebApiBC.csproj.CopyComplete
+C:\Users\edu\Desktop\SelfHostWebApiBC-final VI\obj\Debug\SelfHostWebApiBC.exe
+C:\Users\edu\Desktop\SelfHostWebApiBC-final VI\obj\Debug\SelfHostWebApiBC.pdb
+C:\Users\edu\Desktop\SelfHostWebApiBC-final VII\bin\Debug\SelfHostWebApiBC.exe.config
+C:\Users\edu\Desktop\SelfHostWebApiBC-final VII\bin\Debug\SelfHostWebApiBC.exe
+C:\Users\edu\Desktop\SelfHostWebApiBC-final VII\bin\Debug\SelfHostWebApiBC.pdb
+C:\Users\edu\Desktop\SelfHostWebApiBC-final VII\bin\Debug\EntityFramework.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final VII\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final VII\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final VII\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final VII\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final VII\bin\Debug\Microsoft.Owin.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final VII\bin\Debug\Microsoft.Owin.Host.HttpListener.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final VII\bin\Debug\Microsoft.Owin.Hosting.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final VII\bin\Debug\Newtonsoft.Json.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final VII\bin\Debug\Owin.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final VII\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final VII\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final VII\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final VII\bin\Debug\System.Web.Http.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final VII\bin\Debug\System.Web.Http.Owin.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final VII\bin\Debug\EntityFramework.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final VII\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final VII\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final VII\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final VII\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final VII\bin\Debug\Microsoft.Owin.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final VII\bin\Debug\Microsoft.Owin.Host.HttpListener.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final VII\bin\Debug\Microsoft.Owin.Hosting.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final VII\bin\Debug\Newtonsoft.Json.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final VII\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final VII\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final VII\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final VII\bin\Debug\System.Web.Http.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final VII\bin\Debug\System.Web.Http.Owin.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final VII\obj\Debug\SelfHostWebApiBC.csprojAssemblyReference.cache
+C:\Users\edu\Desktop\SelfHostWebApiBC-final VII\obj\Debug\SelfHostWebApiBC.csproj.CoreCompileInputs.cache
+C:\Users\edu\Desktop\SelfHostWebApiBC-final VII\obj\Debug\SelfHostWebApiBC.csproj.CopyComplete
+C:\Users\edu\Desktop\SelfHostWebApiBC-final VII\obj\Debug\SelfHostWebApiBC.exe
+C:\Users\edu\Desktop\SelfHostWebApiBC-final VII\obj\Debug\SelfHostWebApiBC.pdb
+C:\Users\edu\Desktop\SelfHostWebApiBC-final VIII\obj\Debug\SelfHostWebApiBC.csprojAssemblyReference.cache
+C:\Users\edu\Desktop\SelfHostWebApiBC-final VIII\obj\Debug\SelfHostWebApiBC.csproj.CoreCompileInputs.cache
+C:\Users\edu\Desktop\SelfHostWebApiBC-final VIII\obj\Debug\SelfHostWebApiBC.exe
+C:\Users\edu\Desktop\SelfHostWebApiBC-final VIII\obj\Debug\SelfHostWebApiBC.pdb
+C:\Users\edu\Desktop\SelfHostWebApiBC-final VIII\bin\Debug\SelfHostWebApiBC.exe.config
+C:\Users\edu\Desktop\SelfHostWebApiBC-final VIII\bin\Debug\SelfHostWebApiBC.exe
+C:\Users\edu\Desktop\SelfHostWebApiBC-final VIII\bin\Debug\SelfHostWebApiBC.pdb
+C:\Users\edu\Desktop\SelfHostWebApiBC-final VIII\bin\Debug\EntityFramework.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final VIII\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final VIII\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final VIII\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final VIII\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final VIII\bin\Debug\Microsoft.Owin.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final VIII\bin\Debug\Microsoft.Owin.Host.HttpListener.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final VIII\bin\Debug\Microsoft.Owin.Hosting.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final VIII\bin\Debug\Newtonsoft.Json.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final VIII\bin\Debug\Owin.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final VIII\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final VIII\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final VIII\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final VIII\bin\Debug\System.Web.Http.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final VIII\bin\Debug\System.Web.Http.Owin.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final VIII\bin\Debug\EntityFramework.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final VIII\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final VIII\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final VIII\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final VIII\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final VIII\bin\Debug\Microsoft.Owin.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final VIII\bin\Debug\Microsoft.Owin.Host.HttpListener.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final VIII\bin\Debug\Microsoft.Owin.Hosting.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final VIII\bin\Debug\Newtonsoft.Json.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final VIII\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final VIII\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final VIII\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final VIII\bin\Debug\System.Web.Http.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final VIII\bin\Debug\System.Web.Http.Owin.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final VIII\obj\Debug\SelfHostWebApiBC.csproj.CopyComplete
+C:\Users\edu\Desktop\SelfHostWebApiBC-final IX\obj\Debug\SelfHostWebApiBC.csprojAssemblyReference.cache
+C:\Users\edu\Desktop\SelfHostWebApiBC-final IX\obj\Debug\SelfHostWebApiBC.csproj.CoreCompileInputs.cache
+C:\Users\edu\Desktop\SelfHostWebApiBC-final IX\obj\Debug\SelfHostWebApiBC.exe
+C:\Users\edu\Desktop\SelfHostWebApiBC-final IX\obj\Debug\SelfHostWebApiBC.pdb
+C:\Users\edu\Desktop\SelfHostWebApiBC-final IX\bin\Debug\SelfHostWebApiBC.exe.config
+C:\Users\edu\Desktop\SelfHostWebApiBC-final IX\bin\Debug\SelfHostWebApiBC.exe
+C:\Users\edu\Desktop\SelfHostWebApiBC-final IX\bin\Debug\SelfHostWebApiBC.pdb
+C:\Users\edu\Desktop\SelfHostWebApiBC-final IX\bin\Debug\EntityFramework.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final IX\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final IX\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final IX\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final IX\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final IX\bin\Debug\Microsoft.Owin.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final IX\bin\Debug\Microsoft.Owin.Host.HttpListener.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final IX\bin\Debug\Microsoft.Owin.Hosting.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final IX\bin\Debug\Newtonsoft.Json.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final IX\bin\Debug\Owin.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final IX\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final IX\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final IX\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final IX\bin\Debug\System.Web.Http.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final IX\bin\Debug\System.Web.Http.Owin.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final IX\bin\Debug\EntityFramework.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final IX\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final IX\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final IX\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final IX\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final IX\bin\Debug\Microsoft.Owin.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final IX\bin\Debug\Microsoft.Owin.Host.HttpListener.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final IX\bin\Debug\Microsoft.Owin.Hosting.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final IX\bin\Debug\Newtonsoft.Json.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final IX\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final IX\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final IX\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final IX\bin\Debug\System.Web.Http.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final IX\bin\Debug\System.Web.Http.Owin.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final IX\obj\Debug\SelfHostWebApiBC.csproj.CopyComplete
+C:\Users\edu\Desktop\SelfHostWebApiBC-final A\obj\Debug\SelfHostWebApiBC.csproj.CoreCompileInputs.cache
+C:\Users\edu\Desktop\SelfHostWebApiBC-final A\obj\Debug\SelfHostWebApiBC.exe
+C:\Users\edu\Desktop\SelfHostWebApiBC-final A\obj\Debug\SelfHostWebApiBC.pdb
+C:\Users\edu\Desktop\SelfHostWebApiBC-final A\bin\Debug\SelfHostWebApiBC.exe.config
+C:\Users\edu\Desktop\SelfHostWebApiBC-final A\bin\Debug\SelfHostWebApiBC.exe
+C:\Users\edu\Desktop\SelfHostWebApiBC-final A\bin\Debug\SelfHostWebApiBC.pdb
+C:\Users\edu\Desktop\SelfHostWebApiBC-final A\bin\Debug\EntityFramework.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final A\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final A\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final A\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final A\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final A\bin\Debug\Microsoft.Owin.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final A\bin\Debug\Microsoft.Owin.Host.HttpListener.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final A\bin\Debug\Microsoft.Owin.Hosting.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final A\bin\Debug\Newtonsoft.Json.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final A\bin\Debug\Owin.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final A\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final A\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final A\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final A\bin\Debug\System.Web.Http.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final A\bin\Debug\System.Web.Http.Owin.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final A\bin\Debug\EntityFramework.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final A\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final A\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final A\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final A\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final A\bin\Debug\Microsoft.Owin.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final A\bin\Debug\Microsoft.Owin.Host.HttpListener.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final A\bin\Debug\Microsoft.Owin.Hosting.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final A\bin\Debug\Newtonsoft.Json.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final A\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final A\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final A\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final A\bin\Debug\System.Web.Http.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final A\bin\Debug\System.Web.Http.Owin.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final A\obj\Debug\SelfHostWebApiBC.csproj.CopyComplete
+C:\Users\edu\Desktop\SelfHostWebApiBC-final A\obj\Debug\SelfHostWebApiBC.csprojAssemblyReference.cache
+C:\Users\edu\Desktop\ABfalse\SelfHostWebApiBC-final A\bin\Debug\SelfHostWebApiBC.exe.config
+C:\Users\edu\Desktop\ABfalse\SelfHostWebApiBC-final A\bin\Debug\SelfHostWebApiBC.exe
+C:\Users\edu\Desktop\ABfalse\SelfHostWebApiBC-final A\bin\Debug\SelfHostWebApiBC.pdb
+C:\Users\edu\Desktop\ABfalse\SelfHostWebApiBC-final A\bin\Debug\EntityFramework.dll
+C:\Users\edu\Desktop\ABfalse\SelfHostWebApiBC-final A\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\edu\Desktop\ABfalse\SelfHostWebApiBC-final A\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\edu\Desktop\ABfalse\SelfHostWebApiBC-final A\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\edu\Desktop\ABfalse\SelfHostWebApiBC-final A\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\edu\Desktop\ABfalse\SelfHostWebApiBC-final A\bin\Debug\Microsoft.Owin.dll
+C:\Users\edu\Desktop\ABfalse\SelfHostWebApiBC-final A\bin\Debug\Microsoft.Owin.Host.HttpListener.dll
+C:\Users\edu\Desktop\ABfalse\SelfHostWebApiBC-final A\bin\Debug\Microsoft.Owin.Hosting.dll
+C:\Users\edu\Desktop\ABfalse\SelfHostWebApiBC-final A\bin\Debug\Newtonsoft.Json.dll
+C:\Users\edu\Desktop\ABfalse\SelfHostWebApiBC-final A\bin\Debug\Owin.dll
+C:\Users\edu\Desktop\ABfalse\SelfHostWebApiBC-final A\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\edu\Desktop\ABfalse\SelfHostWebApiBC-final A\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\edu\Desktop\ABfalse\SelfHostWebApiBC-final A\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\edu\Desktop\ABfalse\SelfHostWebApiBC-final A\bin\Debug\System.Web.Http.dll
+C:\Users\edu\Desktop\ABfalse\SelfHostWebApiBC-final A\bin\Debug\System.Web.Http.Owin.dll
+C:\Users\edu\Desktop\ABfalse\SelfHostWebApiBC-final A\bin\Debug\EntityFramework.xml
+C:\Users\edu\Desktop\ABfalse\SelfHostWebApiBC-final A\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\edu\Desktop\ABfalse\SelfHostWebApiBC-final A\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\edu\Desktop\ABfalse\SelfHostWebApiBC-final A\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+C:\Users\edu\Desktop\ABfalse\SelfHostWebApiBC-final A\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\edu\Desktop\ABfalse\SelfHostWebApiBC-final A\bin\Debug\Microsoft.Owin.xml
+C:\Users\edu\Desktop\ABfalse\SelfHostWebApiBC-final A\bin\Debug\Microsoft.Owin.Host.HttpListener.xml
+C:\Users\edu\Desktop\ABfalse\SelfHostWebApiBC-final A\bin\Debug\Microsoft.Owin.Hosting.xml
+C:\Users\edu\Desktop\ABfalse\SelfHostWebApiBC-final A\bin\Debug\Newtonsoft.Json.xml
+C:\Users\edu\Desktop\ABfalse\SelfHostWebApiBC-final A\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\edu\Desktop\ABfalse\SelfHostWebApiBC-final A\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\edu\Desktop\ABfalse\SelfHostWebApiBC-final A\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\edu\Desktop\ABfalse\SelfHostWebApiBC-final A\bin\Debug\System.Web.Http.xml
+C:\Users\edu\Desktop\ABfalse\SelfHostWebApiBC-final A\bin\Debug\System.Web.Http.Owin.xml
+C:\Users\edu\Desktop\ABfalse\SelfHostWebApiBC-final A\obj\Debug\SelfHostWebApiBC.csprojAssemblyReference.cache
+C:\Users\edu\Desktop\ABfalse\SelfHostWebApiBC-final A\obj\Debug\SelfHostWebApiBC.csproj.CoreCompileInputs.cache
+C:\Users\edu\Desktop\ABfalse\SelfHostWebApiBC-final A\obj\Debug\SelfHostWebApiBC.csproj.CopyComplete
+C:\Users\edu\Desktop\ABfalse\SelfHostWebApiBC-final A\obj\Debug\SelfHostWebApiBC.exe
+C:\Users\edu\Desktop\ABfalse\SelfHostWebApiBC-final A\obj\Debug\SelfHostWebApiBC.pdb
+C:\Users\edu\Desktop\SelfHostWebApiBC-final AC\bin\Debug\SelfHostWebApiBC.exe.config
+C:\Users\edu\Desktop\SelfHostWebApiBC-final AC\bin\Debug\SelfHostWebApiBC.exe
+C:\Users\edu\Desktop\SelfHostWebApiBC-final AC\bin\Debug\SelfHostWebApiBC.pdb
+C:\Users\edu\Desktop\SelfHostWebApiBC-final AC\bin\Debug\EntityFramework.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final AC\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final AC\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final AC\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final AC\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final AC\bin\Debug\Microsoft.Owin.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final AC\bin\Debug\Microsoft.Owin.Host.HttpListener.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final AC\bin\Debug\Microsoft.Owin.Hosting.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final AC\bin\Debug\Newtonsoft.Json.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final AC\bin\Debug\Owin.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final AC\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final AC\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final AC\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final AC\bin\Debug\System.Web.Http.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final AC\bin\Debug\System.Web.Http.Owin.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final AC\bin\Debug\EntityFramework.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final AC\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final AC\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final AC\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final AC\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final AC\bin\Debug\Microsoft.Owin.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final AC\bin\Debug\Microsoft.Owin.Host.HttpListener.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final AC\bin\Debug\Microsoft.Owin.Hosting.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final AC\bin\Debug\Newtonsoft.Json.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final AC\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final AC\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final AC\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final AC\bin\Debug\System.Web.Http.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final AC\bin\Debug\System.Web.Http.Owin.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final AC\obj\Debug\SelfHostWebApiBC.csprojAssemblyReference.cache
+C:\Users\edu\Desktop\SelfHostWebApiBC-final AC\obj\Debug\SelfHostWebApiBC.csproj.CoreCompileInputs.cache
+C:\Users\edu\Desktop\SelfHostWebApiBC-final AC\obj\Debug\SelfHostWebApiBC.csproj.CopyComplete
+C:\Users\edu\Desktop\SelfHostWebApiBC-final AC\obj\Debug\SelfHostWebApiBC.exe
+C:\Users\edu\Desktop\SelfHostWebApiBC-final AC\obj\Debug\SelfHostWebApiBC.pdb
+C:\Users\edu\Desktop\SelfHostWebApiBC-final AC2\bin\Debug\SelfHostWebApiBC.exe.config
+C:\Users\edu\Desktop\SelfHostWebApiBC-final AC2\bin\Debug\SelfHostWebApiBC.exe
+C:\Users\edu\Desktop\SelfHostWebApiBC-final AC2\bin\Debug\SelfHostWebApiBC.pdb
+C:\Users\edu\Desktop\SelfHostWebApiBC-final AC2\bin\Debug\EntityFramework.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final AC2\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final AC2\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final AC2\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final AC2\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final AC2\bin\Debug\Microsoft.Owin.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final AC2\bin\Debug\Microsoft.Owin.Host.HttpListener.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final AC2\bin\Debug\Microsoft.Owin.Hosting.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final AC2\bin\Debug\Newtonsoft.Json.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final AC2\bin\Debug\Owin.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final AC2\bin\Debug\PanoramicData.ConsoleExtensions.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final AC2\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final AC2\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final AC2\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final AC2\bin\Debug\System.Web.Http.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final AC2\bin\Debug\System.Web.Http.Owin.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final AC2\bin\Debug\EntityFramework.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final AC2\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final AC2\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final AC2\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final AC2\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final AC2\bin\Debug\Microsoft.Owin.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final AC2\bin\Debug\Microsoft.Owin.Host.HttpListener.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final AC2\bin\Debug\Microsoft.Owin.Hosting.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final AC2\bin\Debug\Newtonsoft.Json.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final AC2\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final AC2\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final AC2\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final AC2\bin\Debug\System.Web.Http.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final AC2\bin\Debug\System.Web.Http.Owin.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final AC2\obj\Debug\SelfHostWebApiBC.csprojAssemblyReference.cache
+C:\Users\edu\Desktop\SelfHostWebApiBC-final AC2\obj\Debug\SelfHostWebApiBC.csproj.CoreCompileInputs.cache
+C:\Users\edu\Desktop\SelfHostWebApiBC-final AC2\obj\Debug\SelfHostWebApiBC.csproj.CopyComplete
+C:\Users\edu\Desktop\SelfHostWebApiBC-final AC2\obj\Debug\SelfHostWebApiBC.exe
+C:\Users\edu\Desktop\SelfHostWebApiBC-final AC2\obj\Debug\SelfHostWebApiBC.pdb
+C:\Users\edu\Desktop\SelfHostWebApiBC-final AC3\bin\Debug\SelfHostWebApiBC.exe.config
+C:\Users\edu\Desktop\SelfHostWebApiBC-final AC3\bin\Debug\SelfHostWebApiBC.exe
+C:\Users\edu\Desktop\SelfHostWebApiBC-final AC3\bin\Debug\SelfHostWebApiBC.pdb
+C:\Users\edu\Desktop\SelfHostWebApiBC-final AC3\bin\Debug\EntityFramework.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final AC3\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final AC3\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final AC3\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final AC3\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final AC3\bin\Debug\Microsoft.Owin.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final AC3\bin\Debug\Microsoft.Owin.Host.HttpListener.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final AC3\bin\Debug\Microsoft.Owin.Hosting.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final AC3\bin\Debug\Newtonsoft.Json.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final AC3\bin\Debug\Owin.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final AC3\bin\Debug\PanoramicData.ConsoleExtensions.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final AC3\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final AC3\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final AC3\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final AC3\bin\Debug\System.Web.Http.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final AC3\bin\Debug\System.Web.Http.Owin.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC-final AC3\bin\Debug\EntityFramework.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final AC3\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final AC3\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final AC3\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final AC3\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final AC3\bin\Debug\Microsoft.Owin.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final AC3\bin\Debug\Microsoft.Owin.Host.HttpListener.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final AC3\bin\Debug\Microsoft.Owin.Hosting.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final AC3\bin\Debug\Newtonsoft.Json.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final AC3\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final AC3\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final AC3\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final AC3\bin\Debug\System.Web.Http.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final AC3\bin\Debug\System.Web.Http.Owin.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC-final AC3\obj\Debug\SelfHostWebApiBC.csprojAssemblyReference.cache
+C:\Users\edu\Desktop\SelfHostWebApiBC-final AC3\obj\Debug\SelfHostWebApiBC.csproj.CoreCompileInputs.cache
+C:\Users\edu\Desktop\SelfHostWebApiBC-final AC3\obj\Debug\SelfHostWebApiBC.csproj.CopyComplete
+C:\Users\edu\Desktop\SelfHostWebApiBC-final AC3\obj\Debug\SelfHostWebApiBC.exe
+C:\Users\edu\Desktop\SelfHostWebApiBC-final AC3\obj\Debug\SelfHostWebApiBC.pdb
+C:\Users\edu\Desktop\SelfHostWebApiBC\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC\bin\Debug\PanoramicData.ConsoleExtensions.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\edu\Desktop\SelfHostWebApiBC\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\edu\Desktop\SelfHostWebApiBC\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\czain\Desktop\Repository\Repository\SelfHostWebApiBC\SelfHostWebApiBC\bin\Debug\SelfHostWebApiBC.exe.config
+C:\Users\czain\Desktop\Repository\Repository\SelfHostWebApiBC\SelfHostWebApiBC\bin\Debug\SelfHostWebApiBC.exe
+C:\Users\czain\Desktop\Repository\Repository\SelfHostWebApiBC\SelfHostWebApiBC\bin\Debug\SelfHostWebApiBC.pdb
+C:\Users\czain\Desktop\Repository\Repository\SelfHostWebApiBC\SelfHostWebApiBC\bin\Debug\EntityFramework.dll
+C:\Users\czain\Desktop\Repository\Repository\SelfHostWebApiBC\SelfHostWebApiBC\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\czain\Desktop\Repository\Repository\SelfHostWebApiBC\SelfHostWebApiBC\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\czain\Desktop\Repository\Repository\SelfHostWebApiBC\SelfHostWebApiBC\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\czain\Desktop\Repository\Repository\SelfHostWebApiBC\SelfHostWebApiBC\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\czain\Desktop\Repository\Repository\SelfHostWebApiBC\SelfHostWebApiBC\bin\Debug\Microsoft.Owin.dll
+C:\Users\czain\Desktop\Repository\Repository\SelfHostWebApiBC\SelfHostWebApiBC\bin\Debug\Microsoft.Owin.Host.HttpListener.dll
+C:\Users\czain\Desktop\Repository\Repository\SelfHostWebApiBC\SelfHostWebApiBC\bin\Debug\Microsoft.Owin.Hosting.dll
+C:\Users\czain\Desktop\Repository\Repository\SelfHostWebApiBC\SelfHostWebApiBC\bin\Debug\Newtonsoft.Json.dll
+C:\Users\czain\Desktop\Repository\Repository\SelfHostWebApiBC\SelfHostWebApiBC\bin\Debug\Owin.dll
+C:\Users\czain\Desktop\Repository\Repository\SelfHostWebApiBC\SelfHostWebApiBC\bin\Debug\PanoramicData.ConsoleExtensions.dll
+C:\Users\czain\Desktop\Repository\Repository\SelfHostWebApiBC\SelfHostWebApiBC\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\czain\Desktop\Repository\Repository\SelfHostWebApiBC\SelfHostWebApiBC\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\czain\Desktop\Repository\Repository\SelfHostWebApiBC\SelfHostWebApiBC\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\czain\Desktop\Repository\Repository\SelfHostWebApiBC\SelfHostWebApiBC\bin\Debug\System.Web.Http.dll
+C:\Users\czain\Desktop\Repository\Repository\SelfHostWebApiBC\SelfHostWebApiBC\bin\Debug\System.Web.Http.Owin.dll
+C:\Users\czain\Desktop\Repository\Repository\SelfHostWebApiBC\SelfHostWebApiBC\bin\Debug\EntityFramework.xml
+C:\Users\czain\Desktop\Repository\Repository\SelfHostWebApiBC\SelfHostWebApiBC\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\czain\Desktop\Repository\Repository\SelfHostWebApiBC\SelfHostWebApiBC\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\czain\Desktop\Repository\Repository\SelfHostWebApiBC\SelfHostWebApiBC\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+C:\Users\czain\Desktop\Repository\Repository\SelfHostWebApiBC\SelfHostWebApiBC\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\czain\Desktop\Repository\Repository\SelfHostWebApiBC\SelfHostWebApiBC\bin\Debug\Microsoft.Owin.xml
+C:\Users\czain\Desktop\Repository\Repository\SelfHostWebApiBC\SelfHostWebApiBC\bin\Debug\Microsoft.Owin.Host.HttpListener.xml
+C:\Users\czain\Desktop\Repository\Repository\SelfHostWebApiBC\SelfHostWebApiBC\bin\Debug\Microsoft.Owin.Hosting.xml
+C:\Users\czain\Desktop\Repository\Repository\SelfHostWebApiBC\SelfHostWebApiBC\bin\Debug\Newtonsoft.Json.xml
+C:\Users\czain\Desktop\Repository\Repository\SelfHostWebApiBC\SelfHostWebApiBC\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\czain\Desktop\Repository\Repository\SelfHostWebApiBC\SelfHostWebApiBC\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\czain\Desktop\Repository\Repository\SelfHostWebApiBC\SelfHostWebApiBC\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\czain\Desktop\Repository\Repository\SelfHostWebApiBC\SelfHostWebApiBC\bin\Debug\System.Web.Http.xml
+C:\Users\czain\Desktop\Repository\Repository\SelfHostWebApiBC\SelfHostWebApiBC\bin\Debug\System.Web.Http.Owin.xml
+C:\Users\czain\Desktop\Repository\Repository\SelfHostWebApiBC\SelfHostWebApiBC\obj\Debug\SelfHostWebApiBC.csprojAssemblyReference.cache
+C:\Users\czain\Desktop\Repository\Repository\SelfHostWebApiBC\SelfHostWebApiBC\obj\Debug\SelfHostWebApiBC.csproj.CoreCompileInputs.cache
+C:\Users\czain\Desktop\Repository\Repository\SelfHostWebApiBC\SelfHostWebApiBC\obj\Debug\SelfHostWebApiBC.csproj.CopyComplete
+C:\Users\czain\Desktop\Repository\Repository\SelfHostWebApiBC\SelfHostWebApiBC\obj\Debug\SelfHostWebApiBC.exe
+C:\Users\czain\Desktop\Repository\Repository\SelfHostWebApiBC\SelfHostWebApiBC\obj\Debug\SelfHostWebApiBC.pdb
+C:\Users\czain\Desktop\SelfHostWebApiBC\bin\Debug\SelfHostWebApiBC.exe.config
+C:\Users\czain\Desktop\SelfHostWebApiBC\bin\Debug\SelfHostWebApiBC.exe
+C:\Users\czain\Desktop\SelfHostWebApiBC\bin\Debug\SelfHostWebApiBC.pdb
+C:\Users\czain\Desktop\SelfHostWebApiBC\bin\Debug\EntityFramework.dll
+C:\Users\czain\Desktop\SelfHostWebApiBC\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\czain\Desktop\SelfHostWebApiBC\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\czain\Desktop\SelfHostWebApiBC\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\czain\Desktop\SelfHostWebApiBC\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\czain\Desktop\SelfHostWebApiBC\bin\Debug\Microsoft.Owin.dll
+C:\Users\czain\Desktop\SelfHostWebApiBC\bin\Debug\Microsoft.Owin.Host.HttpListener.dll
+C:\Users\czain\Desktop\SelfHostWebApiBC\bin\Debug\Microsoft.Owin.Hosting.dll
+C:\Users\czain\Desktop\SelfHostWebApiBC\bin\Debug\Newtonsoft.Json.dll
+C:\Users\czain\Desktop\SelfHostWebApiBC\bin\Debug\Owin.dll
+C:\Users\czain\Desktop\SelfHostWebApiBC\bin\Debug\PanoramicData.ConsoleExtensions.dll
+C:\Users\czain\Desktop\SelfHostWebApiBC\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\czain\Desktop\SelfHostWebApiBC\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\czain\Desktop\SelfHostWebApiBC\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\czain\Desktop\SelfHostWebApiBC\bin\Debug\System.Web.Http.dll
+C:\Users\czain\Desktop\SelfHostWebApiBC\bin\Debug\System.Web.Http.Owin.dll
+C:\Users\czain\Desktop\SelfHostWebApiBC\bin\Debug\EntityFramework.xml
+C:\Users\czain\Desktop\SelfHostWebApiBC\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\czain\Desktop\SelfHostWebApiBC\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\czain\Desktop\SelfHostWebApiBC\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+C:\Users\czain\Desktop\SelfHostWebApiBC\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\czain\Desktop\SelfHostWebApiBC\bin\Debug\Microsoft.Owin.xml
+C:\Users\czain\Desktop\SelfHostWebApiBC\bin\Debug\Microsoft.Owin.Host.HttpListener.xml
+C:\Users\czain\Desktop\SelfHostWebApiBC\bin\Debug\Microsoft.Owin.Hosting.xml
+C:\Users\czain\Desktop\SelfHostWebApiBC\bin\Debug\Newtonsoft.Json.xml
+C:\Users\czain\Desktop\SelfHostWebApiBC\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\czain\Desktop\SelfHostWebApiBC\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\czain\Desktop\SelfHostWebApiBC\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\czain\Desktop\SelfHostWebApiBC\bin\Debug\System.Web.Http.xml
+C:\Users\czain\Desktop\SelfHostWebApiBC\bin\Debug\System.Web.Http.Owin.xml
+C:\Users\czain\Desktop\SelfHostWebApiBC\obj\Debug\SelfHostWebApiBC.csprojAssemblyReference.cache
+C:\Users\czain\Desktop\SelfHostWebApiBC\obj\Debug\SelfHostWebApiBC.csproj.CoreCompileInputs.cache
+C:\Users\czain\Desktop\SelfHostWebApiBC\obj\Debug\SelfHostWebApiBC.csproj.CopyComplete
+C:\Users\czain\Desktop\SelfHostWebApiBC\obj\Debug\SelfHostWebApiBC.exe
+C:\Users\czain\Desktop\SelfHostWebApiBC\obj\Debug\SelfHostWebApiBC.pdb
+C:\Users\czain\Desktop\XXXSelfHostWebApiBC\bin\Debug\SelfHostWebApiBC.exe.config
+C:\Users\czain\Desktop\XXXSelfHostWebApiBC\bin\Debug\SelfHostWebApiBC.exe
+C:\Users\czain\Desktop\XXXSelfHostWebApiBC\bin\Debug\SelfHostWebApiBC.pdb
+C:\Users\czain\Desktop\XXXSelfHostWebApiBC\bin\Debug\EntityFramework.dll
+C:\Users\czain\Desktop\XXXSelfHostWebApiBC\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\czain\Desktop\XXXSelfHostWebApiBC\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\czain\Desktop\XXXSelfHostWebApiBC\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\czain\Desktop\XXXSelfHostWebApiBC\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\czain\Desktop\XXXSelfHostWebApiBC\bin\Debug\Microsoft.Owin.dll
+C:\Users\czain\Desktop\XXXSelfHostWebApiBC\bin\Debug\Microsoft.Owin.Host.HttpListener.dll
+C:\Users\czain\Desktop\XXXSelfHostWebApiBC\bin\Debug\Microsoft.Owin.Hosting.dll
+C:\Users\czain\Desktop\XXXSelfHostWebApiBC\bin\Debug\Newtonsoft.Json.dll
+C:\Users\czain\Desktop\XXXSelfHostWebApiBC\bin\Debug\Owin.dll
+C:\Users\czain\Desktop\XXXSelfHostWebApiBC\bin\Debug\PanoramicData.ConsoleExtensions.dll
+C:\Users\czain\Desktop\XXXSelfHostWebApiBC\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\czain\Desktop\XXXSelfHostWebApiBC\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\czain\Desktop\XXXSelfHostWebApiBC\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\czain\Desktop\XXXSelfHostWebApiBC\bin\Debug\System.Web.Http.dll
+C:\Users\czain\Desktop\XXXSelfHostWebApiBC\bin\Debug\System.Web.Http.Owin.dll
+C:\Users\czain\Desktop\XXXSelfHostWebApiBC\bin\Debug\EntityFramework.xml
+C:\Users\czain\Desktop\XXXSelfHostWebApiBC\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\czain\Desktop\XXXSelfHostWebApiBC\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\czain\Desktop\XXXSelfHostWebApiBC\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+C:\Users\czain\Desktop\XXXSelfHostWebApiBC\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\czain\Desktop\XXXSelfHostWebApiBC\bin\Debug\Microsoft.Owin.xml
+C:\Users\czain\Desktop\XXXSelfHostWebApiBC\bin\Debug\Microsoft.Owin.Host.HttpListener.xml
+C:\Users\czain\Desktop\XXXSelfHostWebApiBC\bin\Debug\Microsoft.Owin.Hosting.xml
+C:\Users\czain\Desktop\XXXSelfHostWebApiBC\bin\Debug\Newtonsoft.Json.xml
+C:\Users\czain\Desktop\XXXSelfHostWebApiBC\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\czain\Desktop\XXXSelfHostWebApiBC\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\czain\Desktop\XXXSelfHostWebApiBC\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\czain\Desktop\XXXSelfHostWebApiBC\bin\Debug\System.Web.Http.xml
+C:\Users\czain\Desktop\XXXSelfHostWebApiBC\bin\Debug\System.Web.Http.Owin.xml
+C:\Users\czain\Desktop\XXXSelfHostWebApiBC\obj\Debug\SelfHostWebApiBC.csprojAssemblyReference.cache
+C:\Users\czain\Desktop\XXXSelfHostWebApiBC\obj\Debug\SelfHostWebApiBC.csproj.CoreCompileInputs.cache
+C:\Users\czain\Desktop\XXXSelfHostWebApiBC\obj\Debug\SelfHostWebApiBC.csproj.CopyComplete
+C:\Users\czain\Desktop\XXXSelfHostWebApiBC\obj\Debug\SelfHostWebApiBC.exe
+C:\Users\czain\Desktop\XXXSelfHostWebApiBC\obj\Debug\SelfHostWebApiBC.pdb
+C:\Users\czain\Desktop\Transfer\SelfHostWebApiBC\bin\Debug\SelfHostWebApiBC.exe.config
+C:\Users\czain\Desktop\Transfer\SelfHostWebApiBC\bin\Debug\SelfHostWebApiBC.exe
+C:\Users\czain\Desktop\Transfer\SelfHostWebApiBC\bin\Debug\SelfHostWebApiBC.pdb
+C:\Users\czain\Desktop\Transfer\SelfHostWebApiBC\bin\Debug\EntityFramework.dll
+C:\Users\czain\Desktop\Transfer\SelfHostWebApiBC\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\czain\Desktop\Transfer\SelfHostWebApiBC\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\czain\Desktop\Transfer\SelfHostWebApiBC\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\czain\Desktop\Transfer\SelfHostWebApiBC\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\czain\Desktop\Transfer\SelfHostWebApiBC\bin\Debug\Microsoft.Owin.dll
+C:\Users\czain\Desktop\Transfer\SelfHostWebApiBC\bin\Debug\Microsoft.Owin.Host.HttpListener.dll
+C:\Users\czain\Desktop\Transfer\SelfHostWebApiBC\bin\Debug\Microsoft.Owin.Hosting.dll
+C:\Users\czain\Desktop\Transfer\SelfHostWebApiBC\bin\Debug\Newtonsoft.Json.dll
+C:\Users\czain\Desktop\Transfer\SelfHostWebApiBC\bin\Debug\Owin.dll
+C:\Users\czain\Desktop\Transfer\SelfHostWebApiBC\bin\Debug\PanoramicData.ConsoleExtensions.dll
+C:\Users\czain\Desktop\Transfer\SelfHostWebApiBC\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\czain\Desktop\Transfer\SelfHostWebApiBC\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\czain\Desktop\Transfer\SelfHostWebApiBC\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\czain\Desktop\Transfer\SelfHostWebApiBC\bin\Debug\System.Web.Http.dll
+C:\Users\czain\Desktop\Transfer\SelfHostWebApiBC\bin\Debug\System.Web.Http.Owin.dll
+C:\Users\czain\Desktop\Transfer\SelfHostWebApiBC\bin\Debug\EntityFramework.xml
+C:\Users\czain\Desktop\Transfer\SelfHostWebApiBC\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\czain\Desktop\Transfer\SelfHostWebApiBC\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\czain\Desktop\Transfer\SelfHostWebApiBC\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+C:\Users\czain\Desktop\Transfer\SelfHostWebApiBC\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\czain\Desktop\Transfer\SelfHostWebApiBC\bin\Debug\Microsoft.Owin.xml
+C:\Users\czain\Desktop\Transfer\SelfHostWebApiBC\bin\Debug\Microsoft.Owin.Host.HttpListener.xml
+C:\Users\czain\Desktop\Transfer\SelfHostWebApiBC\bin\Debug\Microsoft.Owin.Hosting.xml
+C:\Users\czain\Desktop\Transfer\SelfHostWebApiBC\bin\Debug\Newtonsoft.Json.xml
+C:\Users\czain\Desktop\Transfer\SelfHostWebApiBC\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\czain\Desktop\Transfer\SelfHostWebApiBC\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\czain\Desktop\Transfer\SelfHostWebApiBC\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\czain\Desktop\Transfer\SelfHostWebApiBC\bin\Debug\System.Web.Http.xml
+C:\Users\czain\Desktop\Transfer\SelfHostWebApiBC\bin\Debug\System.Web.Http.Owin.xml
+C:\Users\czain\Desktop\Transfer\SelfHostWebApiBC\obj\Debug\SelfHostWebApiBC.csprojAssemblyReference.cache
+C:\Users\czain\Desktop\Transfer\SelfHostWebApiBC\obj\Debug\SelfHostWebApiBC.csproj.CoreCompileInputs.cache
+C:\Users\czain\Desktop\Transfer\SelfHostWebApiBC\obj\Debug\SelfHostWebApiBC.csproj.CopyComplete
+C:\Users\czain\Desktop\Transfer\SelfHostWebApiBC\obj\Debug\SelfHostWebApiBC.exe
+C:\Users\czain\Desktop\Transfer\SelfHostWebApiBC\obj\Debug\SelfHostWebApiBC.pdb

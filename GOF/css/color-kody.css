@@ -1,0 +1,12 @@
+@charset "utf-8";
+.pun { color: #303336; }
+.typ { color: #2B91AF; }
+.kwd { color: #0044FF; } /*101094*/
+.str { color: #7D2727; }
+.exec { color: #C46A6B; }
+.cyfr { color: #FF0004; }
+.com { color: #4FA91F; } /* #858C93*/
+.com {
+	font-size: 12px;
+	font-style: italic
+}

@@ -1,0 +1,117 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Dokument bez tytułu</title>
+<!--<link href="../css/answer.css" rel="stylesheet" type="text/css">-->
+<link href="../../css/answer2.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    
+    <div class="tytul" id="head">
+      <h1>Mediator</h1>
+<h2>Behavioral patterns</h2></div>
+    <div class="post-text">
+      <pre><code>
+ <span class="com">/*
+    Mediator
+       The mediator have registrate a collection of objects which have a common interface.
+    Then on based on the parameter that it will have receives from client, 
+    it would been selects the  object from the collection and have executing his method. 
+    */</span>
+    using <span class="typ">System;</span>
+    using <span class="typ">System.Collections.Generic;</span>
+    <span class="com">//using RedirectBC;
+    //</span>
+    <span class="kwd">abstract class</span> MediatorMethod
+    {
+         <span class="kwd">public abstract void</span> Register(Recipient recipient);
+         <span class="kwd">public abstract void</span> SendMasage(<span class="kwd">string</span> to, <span class="kwd">string</span> message);
+    }<span class="com">//</span>
+    <span class="kwd">class</span> Mediator : MediatorMethod
+    {
+        <span class="kwd">private</span> Dictionary<span class="kwd"><</span><span class="kwd">string</span>, Recipient> _recipients <span class="kwd">=</span>
+                      <span class="kwd">new</span> Dictionary<span class="kwd"><</span><span class="kwd">string</span>, Recipient><span class="kwd">();</span>
+        <span class="kwd">public override void</span> Register(Recipient recipient)
+        {
+            <span class="kwd">if</span> (!_recipients.ContainsValue(recipient))
+                    _recipients[recipient.<span class="exec">Name</span>] <span class="kwd">=</span> recipient;
+        }
+        <span class="kwd">public override void</span> SendMasage(<span class="kwd">string</span> to, <span class="kwd">string</span> message)
+        {
+            Recipient recipient <span class="kwd">=</span> _recipients[to];
+            <span class="kwd">if</span> (recipient <span class="kwd">!= null</span>)
+                recipient.Send(message);
+        }
+    }<span class="com">//</span>
+    <span class="kwd">abstract class</span> Recipient
+    {
+        <span class="kwd">public  string</span> <span class="exec">Name</span> {get;set;}
+        <span class="kwd">public</span> Recipient(<span class="kwd">string</span> name)
+        {
+            <span class="exec">Name</span> = name;
+        }
+        <span class="kwd">public virtual void</span> Send(<span class="kwd">string</span> message)
+        {
+            Console.WriteLine(<span class="str">"To: {0} \nMessage: {1}\n"</span>, <span class="exec">Name</span>, message);
+        }
+    }<span class="com">//</span>
+    <span class="kwd">class</span> Enterprise : Recipient
+    {
+        <span class="kwd">public</span> Enterprise(<span class="kwd">string</span> name) : base(name) {}
+        <span class="kwd">public override void</span> Send( <span class="kwd">string</span> message)
+        {
+            Console.WriteLine(<span class="str">"******* E-mail for enterprise: *******"</span>);
+            base.Send( message);
+        }
+    }<span class="com">//</span>
+    <span class="kwd">class</span> Customer : Recipient
+    {
+        <span class="kwd">public </span>ustomer(<span class="kwd">string</span> name) : base(name)  {}
+        <span class="kwd">public override void</span> Send(<span class="kwd">string</span> message)
+        {
+            Console.WriteLine(<span class="str">"******* E-mail for customer: *******"</span>);
+            base.Send(message);
+        }
+    }<span class="com">//</span>
+    <span class="kwd">class</span> Client
+    {
+        <span class="kwd">static void</span> Main()
+        {
+            <span class="com">//Redirect.Open();</span>
+            Mediator mediator <span class="kwd">= new</span> Mediator();
+
+            mediator.Register(new Enterprise(<span class="str">"IBM"</span>));
+            mediator.Register(new Enterprise(<span class="str">"Microsoft"</span>));
+            mediator.Register(new Customer(<span class="str">"Mel Gibson"</span>));
+            mediator.Register(new Customer(<span class="str">"Cary Grant"</span>));
+
+            mediator.SendMasage(<span class="str">"Cary Grant", "Hi Cary!"</span>);
+            mediator.SendMasage(<span class="str">"IBM", "Wellcome IBM!"</span>);
+            mediator.SendMasage(<span class="str">"Mel Gibson", "Hi Mel!"</span>);
+            mediator.SendMasage(<span class="str">"Microsoft", "Wellcome Microsoft!"</span>);
+            
+            Console.ReadKey();
+            <span class="com">//Redirect.Close();</span>
+        }
+    }<span class="com">////
+    /* output:
+    ******* E-mail for customer: *******
+    To: Cary Grant 
+    Message: Hi Cary!
+
+    ******* E-mail for enterprise: *******
+    To: IBM 
+    Message: Wellcome IBM!
+
+    ******* E-mail for customer: *******
+    To: Mel Gibson 
+    Message: Hi Mel!
+
+    ******* E-mail for enterprise: *******
+    To: Microsoft 
+    Message: Wellcome Microsoft!
+    */</span>   
+     </code></pre></div></body>
+</html>

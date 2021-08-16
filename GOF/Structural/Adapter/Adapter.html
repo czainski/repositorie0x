@@ -1,0 +1,131 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Dokument bez tytułu</title>
+<!--<link href="../css/answer.css" rel="stylesheet" type="text/css">-->
+<link href="../../css/answer2.css" rel="stylesheet" type="text/css">
+</head>
+
+<body> <div class="tytul" id="head"><h1>Adapter</h1><h2><span class="fontXL wysokoscTopt30 wysokoscButt30">Structural</span> patterns</h2></div>
+<div class="post-text">
+<pre><code>
+    <span class="com">/*
+    Adapter 
+         If of different classes generate a similar data structure 
+    it can be used Adapter. 
+         This way, the Client uses only adapter instances and his methods.
+    */</span>
+    using <span class="typ">System</span>;
+    using <span class="typ">System.Collections.Generic</span>;
+     <span class="com">//using RedirectBC;
+    
+    //Adapter's classes </span>
+    abstract <span class="kwd">class</span> Adapter
+    {
+        <span class="com">//Used to identify the class</span>
+        <span class="kwd">public</span> <span class="kwd"> string</span> _name;
+        <span class="com">//</span>
+        <span class="kwd">public</span> Adapter(<span class="kwd">string</span> name)
+        {
+            <span class="kwd">this</span>._name = name;
+        }
+        <span class="kwd">public void</span> Raport()
+        {
+            <span class="kwd">foreach</span> (<span class="kwd">string</span> item <span class="kwd">in</span> CreateList())
+            {
+                Console.WriteLine(<span class="str">"     {0}"</span>, item);
+            }
+        }
+        <span class="kwd">abstract public</span> List<span class="kwd"><</span><span class="kwd">sting></span> CreateList();
+   }<span class="com">//   </span>
+   <span class="kwd">class</span> RealAdapter : Adapter
+   { 
+        <span class="kwd">public</span>  RealAdapter(<span class="kwd">string</span> name)
+                        <span class="kwd">:base</span>(name){}
+        
+       <span class="com">//The decision method</span>
+        <span class="kwd">public override</span> List<span class="kwd"><</span><span class="kwd">sting></span> CreateList()
+        {
+            <span class="kwd">switch</span> (_name)
+            {
+                <span class="kwd">case</span> <span class="str">"Staff":</span>
+                    <span class="kwd">return new</span> Staff().StaffList();
+
+                <span class="kwd">case</span> <span class="str">"Products"</span>:
+                    <span class="kwd">return new</span> Products().ProductsList();
+            
+                <span class="kwd">default:</span>
+                    Console.WriteLine(<span class="str">"Wrong case!"</span>);
+                    <span class="kwd">return null</span>;
+            }
+        }
+    }<span class="com">//
+    
+    //The concrets classes </span>
+    <span class="kwd">public class</span> Products
+    {
+       <span class="kwd">public</span> List <span class="kwd"><</span><span class="kwd">sting></span> ProductsList()
+       {
+           List<span class="kwd"><</span><span class="kwd">sting></span> productsList <span class="kwd">= new</span> List<span class="kwd"><</span><span class="kwd">sting></span>();
+
+           productsList.Add(<span class="str">"Product List:"</span>);
+           productsList.Add(<span class="str">"Fridge"</span>);
+           productsList.Add(<span class="str">"Washing Machine"</span>);
+           productsList.Add(<span class="str">"Vacuum cleaner"</span>);
+           return productsList;
+       }
+    }//
+    <span class="kwd">public class</span> Staff
+    {
+        <span class="kwd">public</span> List<span class="kwd"><</span><span class="kwd">sting></span></span> StaffList()
+        {
+            List<span class="kwd"><</span><span class="kwd">sting></span> staffList = <span class="kwd">new</span> List<span class="kwd"><</span><span class="kwd">sting></span>();
+     
+            staffList.Add(<span class="str">"Staff List:"</span>);
+            staffList.Add(<span class="str">"We do not share personal information."</span>);
+            return staffList;
+        }
+    }<span class="com">//</span>
+    <span class="kwd">class</span> Client
+    {
+        <span class="kwd">static void</span> Main(<span class="kwd">string</span>[] args)
+        {
+           <span class="com"> //Redirect.Open();</span>
+
+            Console.WriteLine(<span class="str">"\n   ============  Adapter Pattern ============\n"</span>);
+            
+            Adapter
+            adapter = new RealAdapter(<span class="str">"Products"</span>);
+            adapter.Raport();
+
+            Console.WriteLine(<span class="str">"\n   -------------------------------------------\n"</span>);
+            adapter = new RealAdapter(<span class="str">"Staff"</span>);
+            adapter.Raport();            
+        
+            Console.WriteLine(<span class="str">"\n   ==========================================\n"</span>);
+            Console.ReadLine();
+
+           <span class="com"> //Redirect.Close();</span>
+        }
+    }<span class="com">//
+    /*output:
+    ============  Adapter Pattern ============
+    
+        Product List:
+     Fridge
+     Washing Machine
+     Vacuum cleaner
+     
+     -------------------------------------------
+
+        Staff List:
+     We do not share personal information.
+
+    ==========================================
+    */</span>
+    </code></pre>
+    </div>
+    <!--********************-->
+</body>
+</html>

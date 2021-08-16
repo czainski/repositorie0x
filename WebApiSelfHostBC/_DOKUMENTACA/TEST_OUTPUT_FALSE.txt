@@ -1,0 +1,222 @@
+
+Test 1. POST: /company/create 
+
+Exception in: CR.CreateCompany
+System.Net.Http.HttpRequestException
+Kod stanu odpowiedzi nie wskazuje powodzenia: 401 (Unauthorized).
+
+
+Exception in: CR.CreateCompany
+System.Net.Http.HttpRequestException
+Kod stanu odpowiedzi nie wskazuje powodzenia: 401 (Unauthorized).
+
+
+Exception in: CR.CreateCompany
+System.Net.Http.HttpRequestException
+Kod stanu odpowiedzi nie wskazuje powodzenia: 401 (Unauthorized).
+
+
+Test 2. POST: /company/search 
+Criterion:  "Name":  ..."Alfa"... || 
+"EstablishmentYear": [2 - 7]|| "FirstName":  ..."Alfa"... || "LastName":  ..."Alfa"... || JobTitle :   Developer(1) or Architect(2)  ||  "DateOfBirth":  [1980.01.01 - 1980.12.31]
+
+[
+  {
+    "Id": 1,
+    "Name": "Name Alfa A ",
+    "EstablishmentYear": 100,
+    "Employees": [
+      {
+        "FirstName": "FirstA1",
+        "LastName": "LastA1",
+        "DateOfBirth": "1970-07-07T00:00:00",
+        "JobTitle": 0,
+        "CompanyId": 1,
+        "Company": null,
+        "Id": 1,
+        "RowVersion": "AAAAAAAAB9g="
+      }
+    ]
+  },
+  {
+    "Id": 2,
+    "Name": "Name  B",
+    "EstablishmentYear": 100,
+    "Employees": [
+      {
+        "FirstName": "FirstAlfaB1",
+        "LastName": "LastB1",
+        "DateOfBirth": "1970-07-07T00:00:00",
+        "JobTitle": 0,
+        "CompanyId": 2,
+        "Company": null,
+        "Id": 2,
+        "RowVersion": "AAAAAAAAB9k="
+      }
+    ]
+  },
+  {
+    "Id": 3,
+    "Name": "Name  C",
+    "EstablishmentYear": 100,
+    "Employees": [
+      {
+        "FirstName": "FirstC1",
+        "LastName": "LastC1",
+        "DateOfBirth": "1970-07-07T00:00:00",
+        "JobTitle": 3,
+        "CompanyId": 3,
+        "Company": null,
+        "Id": 3,
+        "RowVersion": "AAAAAAAAB9o="
+      },
+      {
+        "FirstName": "FirstC2",
+        "LastName": "LastAlfaC2",
+        "DateOfBirth": "1970-07-07T00:00:00",
+        "JobTitle": 3,
+        "CompanyId": 3,
+        "Company": null,
+        "Id": 4,
+        "RowVersion": "AAAAAAAAB9s="
+      }
+    ]
+  },
+  {
+    "Id": 4,
+    "Name": "Name  D",
+    "EstablishmentYear": 100,
+    "Employees": [
+      {
+        "FirstName": "FirstD",
+        "LastName": "LastD",
+        "DateOfBirth": "1980-08-08T00:00:00",
+        "JobTitle": 0,
+        "CompanyId": 4,
+        "Company": null,
+        "Id": 5,
+        "RowVersion": "AAAAAAAAB9w="
+      }
+    ]
+  },
+  {
+    "Id": 5,
+    "Name": "Name  E",
+    "EstablishmentYear": 5,
+    "Employees": [
+      {
+        "FirstName": "FirstE1",
+        "LastName": "LastE1",
+        "DateOfBirth": "1970-07-07T00:00:00",
+        "JobTitle": 0,
+        "CompanyId": 5,
+        "Company": null,
+        "Id": 6,
+        "RowVersion": "AAAAAAAAB90="
+      },
+      {
+        "FirstName": "FirstE2",
+        "LastName": "LastE2",
+        "DateOfBirth": "1981-08-08T00:00:00",
+        "JobTitle": 3,
+        "CompanyId": 5,
+        "Company": null,
+        "Id": 7,
+        "RowVersion": "AAAAAAAAB94="
+      }
+    ]
+  },
+  {
+    "Id": 6,
+    "Name": "Name  F",
+    "EstablishmentYear": 100,
+    "Employees": [
+      {
+        "FirstName": "FirstF11",
+        "LastName": "LastF11",
+        "DateOfBirth": "1970-07-07T00:00:00",
+        "JobTitle": 0,
+        "CompanyId": 6,
+        "Company": null,
+        "Id": 8,
+        "RowVersion": "AAAAAAAAB98="
+      },
+      {
+        "FirstName": "FirstE21",
+        "LastName": "LastE22",
+        "DateOfBirth": "1981-08-08T00:00:00",
+        "JobTitle": 1,
+        "CompanyId": 6,
+        "Company": null,
+        "Id": 9,
+        "RowVersion": "AAAAAAAAB+A="
+      }
+    ]
+  },
+  {
+    "Id": 7,
+    "Name": "Name  G",
+    "EstablishmentYear": 100,
+    "Employees": [
+      {
+        "FirstName": "FirstG11",
+        "LastName": "LastG11",
+        "DateOfBirth": "1970-07-07T00:00:00",
+        "JobTitle": 0,
+        "CompanyId": 7,
+        "Company": null,
+        "Id": 10,
+        "RowVersion": "AAAAAAAAB+E="
+      },
+      {
+        "FirstName": "FirstE21",
+        "LastName": "LastE22",
+        "DateOfBirth": "1981-08-08T00:00:00",
+        "JobTitle": 2,
+        "CompanyId": 7,
+        "Company": null,
+        "Id": 11,
+        "RowVersion": "AAAAAAAAB+I="
+      }
+    ]
+  }
+]
+__________________________________________________
+
+Test 3. Update Id=1 
+Befor:
+
+Exception in: CR.GetCompany
+System.Net.Http.HttpRequestException
+Kod stanu odpowiedzi nie wskazuje powodzenia: 401 (Unauthorized).
+
+
+Exception in: CR.UpdateCompany
+System.Net.Http.HttpRequestException
+Kod stanu odpowiedzi nie wskazuje powodzenia: 401 (Unauthorized).
+
+After:
+
+Exception in: CR.GetCompany
+System.Net.Http.HttpRequestException
+Kod stanu odpowiedzi nie wskazuje powodzenia: 401 (Unauthorized).
+
+
+Test 4. Delete Id=1 
+Befor:
+
+Exception in: CR.GetCompany
+System.Net.Http.HttpRequestException
+Kod stanu odpowiedzi nie wskazuje powodzenia: 401 (Unauthorized).
+
+
+Exception in: CR.DeleteCompany
+System.Net.Http.HttpRequestException
+Kod stanu odpowiedzi nie wskazuje powodzenia: 401 (Unauthorized).
+
+After:
+
+Exception in: CR.GetCompany
+System.Net.Http.HttpRequestException
+Kod stanu odpowiedzi nie wskazuje powodzenia: 401 (Unauthorized).
+

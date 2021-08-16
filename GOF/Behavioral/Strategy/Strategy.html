@@ -1,0 +1,115 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Dokument bez tytułu</title>
+<!--<link href="../css/answer.css" rel="stylesheet" type="text/css">-->
+<link href="../../css/answer2.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    
+    <div class="tytul" id="head">
+    <h1>Strategy</h1>
+<h2>Behavioral patterns</h2></div>
+    <div class="post-text">
+<pre><code> <span class="com">/*        
+    Strategy
+        Using this pattern, you can manage the properties of a class 
+    (so-colled a "Contex" class), that is, they manage by using 
+    different methods of different classes which implementing 
+    a method of the strategy.
+    
+    */</span>
+    using <span class="typ">System;</span>    
+    using <span class="typ">System.Collections.Generic;</span>
+    using <span class="typ">RedirectBC;</span>
+    <span class="com">//</span>
+    <span class="kwd">abstract class</span> Strategy
+    {
+        <span class="kwd">public abstract void</span> StrategyMethod(List<span class="kwd"><span class"kwd"><</span><span class"kwd">string></span></span> components);
+    }
+    <span class="com">//"Concrete Strategy"</span>
+    <span class="kwd">class</span> Cooking : Strategy
+    {
+        <span class="kwd">public override</span> void StrategyMethod(List<span class="kwd"><span class"kwd"><</span><span class"kwd">string></span></span> components)
+        {
+            Console.WriteLine(<span class="str">"\n\tFirst strategy:\n\n\t\t\tWe prepare the soup. \n\t\tPreparate the following components:"</span>);
+            foreach (var component in components)
+                Console.WriteLine(<span class="str">"\t\t\t"</span><span class="kwd">+</span>component);
+                Console.WriteLine (<span class="str">"\t\tDo not forget to add the laurel leaf and allspice.\n\t\tProvide with noodles. \n"</span>);
+        }<span class="com">//</span>
+    }<span class="com">//</span>
+    <span class="kwd">class</span> Frying : Strategy
+    {
+        <span class="kwd">public override void</span> StrategyMethod(List<span class="kwd"><span class"kwd"><</span><span class"kwd">string></span></span> list)
+        {
+            Console.WriteLine(<span class="str">"\n\tSecond strategy:\n\n\t\tWe'll fry for dinner:"</span>);
+            foreach (var skladnik in list)
+                Console.WriteLine(<span class="str">"\t\t\t"</span> <span class="kwd">+</span> skladnik);
+        }
+    }<span class="com">//</span>
+    <span class="com">//The 'Context' class</span>
+    <span class="kwd">class</span> Dinner
+    {
+        <span class="kwd">private</span> Strategy _strategy;
+        <span class="kwd">private</span> List<span class="kwd"><span class"kwd"><</span><span class"kwd">string></span></span> _components= new List<span class="kwd"><span class"kwd"><</span><span class"kwd">string></span></span>;
+        <span class="kwd">public</span> List<span class="kwd"><span class"kwd"><</span><span class"kwd">string></span></span> Components
+            {get{return _components;}}
+        <span class="com">//</span>
+        <span class="kwd">public void</span> ChoiceStrategy(Strategy strategy)
+        {
+            _strategy <span class="kwd">=</span> strategy;
+        }
+        <span class="kwd">public void</span> PrepareDinner<span class="kwd"><span class="kwd">()</span></span>
+        {
+            _strategy.StrategyMethod(_components);
+        }
+    }<span class="com">//</span>
+    <span class="kwd">class</span> Client
+    {
+        <span class="kwd">static void</span> Main<span class="kwd">()</span>
+        {
+            <span class="exec">Redirect</span>.<span class="exec">Open</span><span class="kwd">()</span>;
+
+            Dinner dinner = new Dinner<span class="kwd">()</span>;
+            
+            dinner.Components.Add("chicken");
+            dinner.Components.Add("carrot");
+            dinner.Components.Add("parsley");
+            dinner.Components.Add("celery");
+
+            dinner.ChoiceStrategy(new Cooking<span class="kwd">()</span>);
+            dinner.PrepareDinner<span class="kwd">()</span>;
+            
+            dinner.ChoiceStrategy(new Frying<span class="kwd">()</span>);
+            dinner.PrepareDinner<span class="kwd">()</span>;
+         
+            <span class="com">//Console.ReadKey();</span>
+            <span class="exec">Redirect</span>.<span class="exec">Close</span><span class="kwd">()</span>;
+        }
+    }
+    <span class="com">/*output:
+
+	First strategy:
+
+			We prepare the soup. 
+		Preparate the following components:
+			chicken
+			carrot
+			parsley
+			celery
+		Do not forget to add the laurel leaf and allspice.
+		Provide with noodles. 
+
+
+	Second strategy:
+
+		We'll fry for dinner:
+			chicken
+			carrot
+			parsley
+			celery
+    */</span>
+     </code></pre></div></body>
+</html>

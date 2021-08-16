@@ -1,0 +1,80 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Dokument bez tytułu</title>
+<!--<link href="../css/answer.css" rel="stylesheet" type="text/css">-->
+<link href="../../css/answer2.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    
+    <div class="tytul" id="head">
+    <h1>Visitor</h1>
+<h2>Behavioral patterns</h2></div>
+    <div class="post-text">
+<pre><code> <span class="com">/*        
+    Visitor 
+        The visited object takes as its parameter a object (the so-called Visitor).
+      The Visitor, in turn, receives as a parameter a reference to a visited object.
+      In this way, the Visitor has access to the properties and methods of the visited object.
+      A Client creates an instance of a concret object witch uses its method to get the Vistator.
+    
+    */</span>
+    using <span class="typ">System;</span>   
+    <span class="kwd">abstract class</span>  Visitor
+    {
+        <span class="kwd">abstract public void</span> Visitation(Employee employee);
+    }
+    <span class="com">//The 'Concrete Visitor' classes</span>
+    <span class="kwd">class</span> Weight : Visitor
+    {
+        <span class="kwd">public override void</span> Visitation(Employee employee)
+        {
+            Console.WriteLine(<span class="str">"{0} weight: {1} euro"</span>,
+              employee.<span class="exec">Name</span>, employee.Weight);
+        }
+    }<span class="com">//</span>
+    <span class="kwd">class</span> Vacation : Visitor
+    {
+        <span class="kwd">public override void</span> Visitation(Employee employee)
+        {
+            Console.WriteLine(<span class="str">"{0} vacation: {1} days"</span>, employee.<span class="exec">Name</span>, employee.Vacation);
+        }
+    }
+    <span class="com">//The 'Concrete' class</span>
+    <span class="kwd">class</span> Employee 
+    {
+       <span class="kwd"> public string</span> <span class="exec">Name</span> { get; set; }
+       <span class="kwd"> public double</span> Weight { get; set; }
+       <span class="kwd"> public int</span> Vacation { get; set; }
+        <span class="com">//</span>
+        <span class="kwd">public void</span> Visitation(Visitor visitor)
+        {
+            visitor.Visitation(<span class="kwd">this</span>);
+        }<span class="com">//</span>
+    }<span class="com">//</span>
+    <span class="kwd">class</span> Client
+    {
+        <span class="kwd">static void</span> Main<span class="kwd">()</span>
+        {
+            Employee employee <span class="kwd">=  new</span> Employee<span class="kwd">()</span>;
+            employee.<span class="exec">Name</span><span class="kwd">=</span><span class="str">"John Petrucci"</span>;
+            employee.Weight<span class="kwd">=</span><span class="cyfr">10000</span>;
+            employee.Vacation<span class="kwd">=</span><span class="cyfr">28</span>;
+
+            employee.Visitation(<span class="kwd">new</span> Weight<span class="kwd">()</span>);
+            employee.Visitation(<span class="kwd">new </span>Vacation<span class="kwd">()</span>);
+
+            Console.ReadKey<span class="kwd">()</span>;
+        }
+    }<span class="com">//
+    /*output:
+    
+     John Petrucci weight: 10000 euro
+     John Petrucci vacation: 28 days
+    
+    */</span>
+
+     </code></pre></div></body>
+</html>

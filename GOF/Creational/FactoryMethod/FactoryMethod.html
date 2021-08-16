@@ -1,0 +1,98 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Dokument bez tytułu</title>
+<!--<link href="../css/answer.css" rel="stylesheet" type="text/css">-->
+<link href="../../css/answer2.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    
+    <div class="tytul" id="head">
+      <h1>Factory Method</h1>
+<h2>Creational patterns</h2></div>
+    <div class="post-text">
+      <pre><code>
+       <span class="com">/*Factory Method*/</span>
+    using <span class="typ">System;</span>  
+    using <span class="typ">RedirectBC</span>;
+    <span class="kwd">public interface</span> IBread
+    {
+        <span class="kwd">void</span> Production(<span class="kwd">int</span> ilosc);
+    }
+    <span class="kwd">public class</span> Rolls : IBread
+    {
+        <span class="kwd">public void</span> Production(<span class="kwd">int</span> quantity)
+        {
+            Console.WriteLine(<span class="str">"\tRolls in quantity: "</span> <span class="kwd"><span class="kwd">+</span></span> quantity.ToString<span class="kwd">()</span> );
+        }
+    }
+    <span class="kwd">public class</span> RyeBread : IBread
+    {
+        <span class="kwd">public void</span> Production(<span class="kwd">int</span> quantity)
+        {
+            Console.WriteLine(<span class="str">"\tRye bread in quantity: "</span> <span class="kwd"><span class="kwd">+</span></span> quantity.ToString<span class="kwd">()</span>);
+        }
+    }
+    <span class="kwd">public class</span> WheatBread : IBread
+    {
+        <span class="kwd">public void</span> Production(<span class="kwd">int</span> quantity)
+        {
+            Console.WriteLine(<span class="str">"\tWheat bread in quantity: "</span> <span class="kwd"><span class="kwd">+</span></span> quantity.ToString<span class="kwd">()</span>);
+        }
+    }
+    <span class="com">/// A 'ConcreteCreator' class</span>
+    <span class="kwd">public class</span> Factory 
+    {
+        <span class="com">//klasa decyzyjna (wybór zależny od literału podanego jako parametr)</span>
+        <span class="kwd">public</span>  IBread BreadProduction(<span class="kwd">string</span> kindOfBread)
+        {
+            <span class="kwd">switch</span> (kindOfBread)
+            {
+                <span class="kwd">case</span> <span class="str">"\"Rye bread\""</span>:
+                    <span class="kwd">return new</span> RyeBread<span class="kwd">()</span>;
+                <span class="kwd">case</span> <span class="str">"\"Wheat bread\""</span>:
+                    <span class="kwd">return new</span> WheatBread<span class="kwd">()</span>;
+                <span class="kwd">case</span> <span class="str">"Rolls"</span>:
+                <span class="kwd">return new</span> Rolls<span class="kwd">()</span>;
+                <span class="kwd">default:
+                    throw new </span>ApplicationException(<span class="kwd">string</span>.Format(<span class="str">"Error ! - Kind of Bread'{0}' "</span>, kindOfBread));
+            }
+        }
+    }
+     <span class="com">/// Factory Pattern Demo</span>
+     <span class="kwd">class</span> Client
+    {
+        <span class="kwd">static void</span> Main(<span class="kwd">string</span>[] args)
+        {
+           <span class="exec"> Redirect.Open</span><span class="kwd">()</span>;
+
+            Console.WriteLine(<span class="str">"\n\n\t\t The Bakehouse - Factory Method \n"</span>);
+            Factory factory = new Factory<span class="kwd">()</span>;
+
+            IBread iBread = factory.BreadProduction(<span class="str">"\"Rye bread\""</span>);
+            iBread.Production(<span class="cyfr">10</span>);
+
+            iBread = factory.BreadProduction(<span class="str">"\"Wheat bread\""</span>);
+            iBread.Production(<span class="cyfr">20</span>);
+
+
+            iBread = factory.BreadProduction(<span class="str">"Rolls"</span>);
+            iBread.Production(<span class="cyfr">30</span>);
+
+            <span class="exec">Redirect.Close</span><span class="kwd">()</span>;
+            Console.ReadKey<span class="kwd">()</span>;
+        }
+    }
+    <span class="com"> /* output
+     
+       The Bakehouse - Factory Method 
+
+     Rye bread in quantity: 10
+     Wheat bread in quantity: 20
+     Rolls in quantity: 30
+     
+     */</span>
+     </code></pre></div></body>
+</html>

@@ -1,0 +1,111 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Dokument bez tytułu</title>
+<link href="../../css/answer2.css" rel="stylesheet" type="text/css">
+</head>
+
+<body> <div class="tytul" id="head">
+  <h1>Facade</h1>
+  <h2>Structural patterns</h2></div>
+   <div class="post-text">
+<pre><code>
+ <span class="com">/*
+    Facade
+        The pattern is particularly useful when the whole process 
+    requires a number of subprocesses. 
+    */</span>
+    using <span class="typ">System;</span>
+    using <span class="typ">RedirectBC;</span>
+    
+    <span class="kwd">abstract class</span> Devices
+    {
+        <span class="kwd">public string</span> <span class="exec">Name</span> ; 
+        <span class="kwd">public int</span> Amount;
+    }<span class="com">//</span>
+    <span class="kwd">class</span> Processor : Devices 
+    {
+        <span class="kwd">public override string </span>ToString()
+        {
+            return String.Format(<span class="str">"Processor: \"{0}\"  amount: {1} "</span>,<span class="exec">Name</span>, Amount);
+        }
+    }<span class="com">//</span>
+    <span class="kwd">class</span> Memory : Devices 
+    {
+        <span class="kwd">public override string</span> ToString()
+        {
+            return String.Format(<span class="str">"Memory: \"{0}\" amount: {1}"</span>, <span class="exec">Name</span>, Amount);
+        }
+    }<span class="com">//</span>
+    <span class="kwd">class</span> Motherboard : Devices 
+    {
+        <span class="kwd">public override string</span> ToString()
+        {
+            return String.Format(<span class="str">"Motherboard: \"{0}\" amount: {1}"</span>, <span class="exec">Name</span>, Amount);
+        }
+    }<span class="com">//</span>
+    <span class="kwd">class</span> Computer
+    {
+        <span class="kwd">private</span> Processor _processor;
+        <span class="kwd">private</span> Memory _memory;
+        <span class="kwd">private</span> Motherboard _motherboard;
+
+        <span class="kwd">public</span> Computer()
+        {
+            _processor   <span class="kwd">= new</span> Processor();
+            _memory      <span class="kwd">= new</span> Memory();
+            _motherboard <span class="kwd">= new</span> Motherboard();
+        }
+        <span class="kwd">public void</span> Processor (<span class="kwd">string</span> s)
+        {
+            _processor.<span class="exec">Name</span> <span class="kwd">=</span> s;
+        }
+        <span class="kwd">public void </span>Memory(<span class="kwd">string</span> s)
+        {
+            _memory.<span class="exec">Name</span> <span class="kwd">=</span> s;
+        }
+        <span class="kwd">public void </span>Motherboard(<span class="kwd">string</span> s)
+        {
+            _motherboard.<span class="exec">Name</span> <span class="kwd">=</span> s;
+        }
+        <span class="kwd">public void</span> Make(int i)
+        {
+            _processor.Amount   <span class="kwd">=</span> i;
+            _memory.Amount      <span class="kwd">=</span> i;
+            _motherboard.Amount <span class="kwd">=</span> i;
+        }
+        <span class="kwd">public void</span> Report()
+        {
+            Console.WriteLine(<span class="str">"\tTo be supplied: \n\t\t{0}\n\t\t{1}\n\t\t{2}"</span>,
+            _processor, _memory, _motherboard);
+        }
+    }<span class="com">//</span>
+    <span class="kwd">class</span> Client
+    {
+        <span class="kwd">public static void</span> Main()
+        {
+            <span class="com">//Redirect.Open();</span>
+            Computer facade <span class="kwd">= new</span> Computer();
+
+            facade.Processor(<span class="str">"Intel Core i7-9870KA"</span>);
+            facade.Memory(<span class="str">"Samsung DDR2 XfXgHY"</span>);
+            facade.Motherboard(<span class="str">"MSI AH970MX"</span>);
+
+            facade.Make(<span class="cyfr">5</span>);
+            facade.Report();
+            Console.ReadKey();
+            <span class="com">//Redirect.Close();</span>
+        }
+    }<span class="com">//
+    /* output:
+    To be supplied: 
+		Processor: "Intel Core i7-9870KA "  amount: 5 
+		Memory: "Samsung DDR2 XfXgHY" amount: 5
+		Motherboard: "MSI AH970MX" amount: 5
+
+    */ </span>    
+ </code></pre>
+ </div>
+</body>
+</html>

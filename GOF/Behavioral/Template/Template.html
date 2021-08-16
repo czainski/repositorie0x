@@ -1,0 +1,95 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Dokument bez tytułu</title>
+<!--<link href="../css/answer.css" rel="stylesheet" type="text/css">-->
+<link href="../../css/answer2.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    
+    <div class="tytul" id="head">
+    <h1>Template</h1>
+<h2>Behavioral patterns</h2></div>
+    <div class="post-text">
+<pre><code> <span class="com">/*        
+    Template
+		Used for objects of similar functionality.
+        For example, objects that make querys for different databases 
+		or objects that create a launch platform for different games and so on.
+    
+    */</span>
+    using <span class="typ">System;</span>   
+        <span class="kwd">abstract class</span> Game
+    {
+        <span class="kwd">public abstract void</span> <span class="exec">Execute</span><span class="kwd">()</span>;
+        <span class="kwd">public abstract void</span> <span class="exec">Open</span><span class="kwd">()</span>;
+        <span class="kwd">public abstract void</span> <span class="exec">Close</span><span class="kwd">()</span>;
+        <span class="com">//Template Method</span>
+        <span class="kwd">public void</span> Run<span class="kwd">()</span>
+        {
+            <span class="exec">Open</span><span class="kwd">()</span>;
+            <span class="exec">Execute</span><span class="kwd">()</span>;
+            <span class="exec">Close</span><span class="kwd">()</span>;
+        }
+    }<span class="com">//   
+    //"Concrete clases"</span> 
+    <span class="kwd">class</span> TanksGame : Game
+    {
+        <span class="kwd">public override void</span> <span class="exec">Execute</span><span class="kwd">()</span>
+        {
+            Console.WriteLine(<span class="str">"\tTanks are in action : Puf! Puf!"</span>);
+        }
+        <span class="kwd">public override void</span> <span class="exec">Open</span><span class="kwd">()</span>
+        {
+            Console.WriteLine(<span class="str">"\tOpen Tanks Game!"</span>);
+        }
+        <span class="kwd">public override void</span> <span class="exec">Close</span><span class="kwd">()</span>
+        {
+            Console.WriteLine(<span class="str">"\tClose Tanks Game!"</span>);
+        }
+    }<span class="com">//</span>
+    <span class="kwd">class</span> PlanesGame : Game
+    {
+        <span class="kwd">public override void</span> <span class="exec">Execute</span><span class="kwd">()</span>
+        {
+            Console.WriteLine(<span class="str">"\tPlanes are in action : Bamp! Bamp!"</span>);
+        }
+        <span class="kwd">public override void</span> <span class="exec">Open</span><span class="kwd">()</span>
+        {
+            Console.WriteLine(<span class="str">"\n\tOpen Planes Game!"</span>);
+        }
+        <span class="kwd">public override void</span> <span class="exec">Close</span><span class="kwd">()</span>
+        {
+            Console.WriteLine(<span class="str">"\tClose Planes Game!"</span>);
+        }
+    }<span class="com">//</span>
+    <span class="kwd">class</span> Client
+    {
+        <span class="kwd">static void</span> Main<span class="kwd">()</span>
+        {
+            Game 
+            templateClass <span class="kwd">= new</span> TanksGame<span class="kwd">()</span>;
+            templateClass.Run<span class="kwd">()</span>;
+
+            templateClass <span class="kwd">= new</span> PlanesGame<span class="kwd">()</span>;
+            templateClass.Run<span class="kwd">()</span>;
+
+            Console.ReadKey<span class="kwd">()</span>;
+        }
+    }
+   <span class="com"> /*output:
+     
+     Open Tanks Game!
+     Tanks are in action : Puf! Puf!"
+     Close Tanks Game!
+
+     Open Planes Game!
+     Planes are in action : Bamp! Bamp!
+     Close Planes Game!
+     
+    */</span>
+ 
+     </code></pre></div></body>
+</html>

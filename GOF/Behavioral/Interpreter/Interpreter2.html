@@ -1,0 +1,174 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Dokument bez tytułu</title>
+<!--<link href="../css/answer.css" rel="stylesheet" type="text/css">-->
+<link href="../../css/answer2.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    
+    <div class="tytul" id="head"><h1>Interpreter</h1><h2>Behavioral patterns</h2></div>
+    <div class="post-text">
+      <pre><code>
+    using <span class="typ">System;</span>
+    using <span class="typ">System.Collections;</span>
+    using <span class="typ">System.Collections.Generic;</span>
+    <span class="com">////</span>
+    <span class="kwd">class</span> <span class="typ">Context</span>
+    {
+        private Interpreter _interpreter;
+    
+        <span class="kwd"><span class="kwd">public</span></span> <span class="typ">Context></span> (<span class="kwd">sting</span> contex)
+        {
+          _interpreter = <span class="kwd">new</span> Interpreter(contex);
+        }
+        
+        <span class="kwd">public void</span> <span class="typ">Interpreter</span> (<span class="kwd">sting</span> s)
+        {
+            _interpreter.Translation(s);
+        }
+    }   
+
+    <span class="kwd">class</span> <span class="typ">Interpreter </span>
+    {
+        <span class="com">//The interface for concrete classes</span>
+        Translator _translator;
+
+        <span class="kwd">public void</span> <span class="typ">Translation</span>(<span class="kwd">sting</span> word)
+        {
+            <span class="com">//</span>
+            _translator.Translation(word);
+        }
+
+        <span class="com">//The constructor is a method of decision</span>
+        <span class="kwd">public</span> <span class="typ">Interpreter</span>(<span class="kwd">sting</span> context)
+        {
+            <span class="kwd">switch</span> (context) {
+                
+                <span class="kwd">case</span> "FrenchTranslator":
+                    
+                    _translator=<span class="kwd">new</span> French();
+                    break;
+    
+                <span class="kwd">case</span> "GermanTranslator":
+                    
+                    _translaor = <span class="kwd">new</span> German();
+                    break;
+                
+                <span class="kwd">case</span> "PolishTranslator":
+                
+                    _translator = <span class="kwd">new</span> Polish();
+                    break;
+            }
+        }
+    }
+
+    <span class="com">////The concrete classes with a common interface</span>
+    interface Translator
+    {
+        <span class="kwd">void</span> <span class="typ">Translation</span>(<span class="kwd">sting</span> word);
+    }
+
+    <span class="kwd">class</span> <span class="typ">French</span> : Translator
+    {
+        Dictionary<<span class="kwd">sting</span>, <span class="kwd">sting</span>> _English = <span class="kwd">new</span> Dictionary<<span class="kwd">sting</span>, <span class="kwd">sting</span>>();
+        Dictionary<<span class="kwd">sting</span>, <span class="kwd">sting</span>> _German  = <span class="kwd">new</span> Dictionary<<span class="kwd">sting</span>, <span class="kwd">sting</span>>();
+        Dictionary<<span class="kwd">sting</span>, <span class="kwd">sting</span>> _Polish  = <span class="kwd">new</span> Dictionary<<span class="kwd">sting</span>, <span class="kwd">sting</span>>();
+
+        <span class="com">//The constructor: loading of the dictionaries</span> 
+        <span class="kwd">public</span>  <span class="typ">French()</span> {
+            
+            _English.Add(<span class="str">"Pouvair"</span>, <span class="str">"Power"</span>);
+            _German.Add (<span class="str">"Pouvair"</span>, <span class="str">"Macht"</span>);
+            _Polish.Add (<span class="str">"Pouvair"</span>, <span class="str">"Móc"</span>);
+
+            _English.Add(<span class="str">"Vouloir"</span>, <span class="str">"Want"</span>);
+            _German.Add (<span class="str">"Vouloir"</span>, <span class="str">"Wollen"</span>);
+            _Polish.Add (<span class="str">"Vouloir"</span>, <span class="str">"Chcieć"</span>);
+        }
+
+        <span class="kwd">public void </span><span class="typ">Translation</span>(<span class="kwd">sting</span> word)
+        {
+            <span class="typ">Console.WriteLine</span>(<span class="str">"\n     French : "</span><span class="kwd">+</span> word);
+            <span class="typ">Console.WriteLine</span>(<span class="str">"English: "</span><span class="kwd">+</span>_English[word]);
+            <span class="typ">Console.WriteLine</span><span class="str">("German : "</span><span class="kwd">+</span>_German [word]);
+            <span class="typ">Console.WriteLine</span>(<span class="str">"Polish : "</span><span class="kwd">+</span>_Polish [word]);
+        }
+    }
+
+    <span class="kwd">class</span> <span class="typ">German</span> : Translator
+    {
+        Dictionary<<span class="kwd">sting</span>, <span class="kwd">sting</span>> _English = <span class="kwd">new</span> Dictionary<<span class="kwd">sting</span>, <span class="kwd">sting</span>>();
+        Dictionary<<span class="kwd">sting</span>, <span class="kwd">sting</span>> _French  = <span class="kwd">new</span> Dictionary<<span class="kwd">sting</span>, <span class="kwd">sting</span>>();
+        Dictionary<<span class="kwd">sting</span>, <span class="kwd">sting</span>> _Polish  = <span class="kwd">new</span> Dictionary<<span class="kwd">sting</span>, <span class="kwd">sting</span>>();
+        
+        <span class="kwd">public</span> <span class="typ">German</span>()
+        {
+            _English.Add(<span class="str">"Macht"</span>, <span class="str">"Power"</span>);
+            _French.Add (<span class="str">"Macht"</span>, <span class="str">"Pouvair"</span>);
+            _Polish.Add (<span class="str">"Macht"</span>, <span class="str">"Móc"</span>);
+
+            _English.Add(<span class="str">"Wollen"</span>, <span class="str">"Want"</span>);
+            _French.Add (<span class="str">"Wollen"</span>, <span class="str">"Vouloir"</span>);
+            _Polish.Add (<span class="str">"Wollen"</span>, <span class="str">"Chcieć"</span>);
+        }
+
+        <span class="kwd">public void</span> <span class="typ">Translation</span>(<span class="kwd">sting</span> word)
+        {
+            <span class="typ">Console.WriteLine</span>(<span class="str">"\n     German : "</span> <span class="kwd">+</span> word);
+            <span class="typ">Console.WriteLine</span>(<span class="str">"English: "</span> <span class="kwd">+</span> _English[word]);
+            <span class="typ">Console.WriteLine</span>(<span class="str">"French : " </span><span class="kwd">+</span> _French[word]);
+            <span class="typ">Console.WriteLine</span>(<span class="str">"Polish : "</span> <span class="kwd">+</span> _Polish[word]);
+        }
+    }
+
+    <span class="kwd">class</span> <span class="typ">Polish</span> : Translator
+    {
+        Dictionary<<span class="kwd">sting</span>, <span class="kwd">sting</span>> _English = <span class="kwd">new</span> Dictionary<<span class="kwd">sting</span>, <span class="kwd">sting</span>>();
+        Dictionary<<span class="kwd">sting</span>, <span class="kwd">sting</span>> _French  = <span class="kwd">new</span> Dictionary<<span class="kwd">sting</span>, <span class="kwd">sting</span>>();
+        Dictionary<<span class="kwd">sting</span>, <span class="kwd">sting</span>> _German  = <span class="kwd">new</span> Dictionary<<span class="kwd">sting</span>, <span class="kwd">sting</span>>();
+        
+        <span class="kwd">public</span> <span class="typ">Polish</span>()
+        {
+            _English.Add(<span class="str">"Móc"</span>, <span class="str">"Power"</span>);
+            _French.Add (<span class="str">"Móc"</span>, <span class="str">"Pouvair"</span>);
+            _German.Add (<span class="str">"Móc"</span>, <span class="str">"Macht"</span>);;
+            _English.Add(<span class="str">"Chcieć"</span>, <span class="str">"Want"</span>);
+            _French.Add (<span class="str">"Chcieć"</span>, <span class="str">"Vouloir"</span>);
+            _German.Add (<span class="str">"Chcieć"</span>, <span class="str">"Wollen"</span>);
+        }
+
+        <span class="kwd">public void</span> <span class="typ">Translation</span>(<span class="kwd">sting</span> word)
+        {
+            <span class="typ">Console.WriteLine</span>(<span class="str">"\n     Polish : "</span> <span class="kwd">+</span> word);
+            <span class="typ">Console.WriteLine</span>(<span class="str">"English: "</span> <span class="kwd">+</span> _English[word]);
+            <span class="typ">Console.WriteLine</span>(<span class="str">"French : "</span> <span class="kwd">+</span> _French[word]);
+            <span class="typ">Console.WriteLine</span>(<span class="str">"German : "</span> <span class="kwd">+</span> _German[word]);
+        }
+    }
+    
+    <span class="com">////</span>
+    <span class="kwd">class</span> <span class="typ">Client</span>
+    {
+        <span class="kwd">static void</span> <span class="typ">Main</span>()
+        {
+            Context
+            context = <span class="kwd">new</span> Context(<span class="str">"FrenchTranslator"</span>);
+            context.Interpreter(<span class="str">"Pouvair"</span>);
+
+            context = <span class="kwd">new</span> Context(<span class="str">"GermanTranslator"</span>);
+            context.Interpreter(<span class="str">"Wollen"</span>);
+
+            context = <span class="kwd">new</span> Context(<span class="str">"PolishTranslator"</span>);
+            context.Interpreter(<span class="str">"Móc"</span>);
+            
+            Console.Read();
+        }
+    }
+ </code></pre>
+ </div>	
+ </div>
+</body>
+</html>
